@@ -1,0 +1,1941 @@
+{
+  "countries": [
+    {
+      "name": "United States",
+      "military_strength": {
+        "active_personnel": 1400000,
+        "reserve": 850000,
+        "nuclear_warheads": 5550,
+        "defense_budget_usd_bn": 858,
+        "key_capabilities": [
+          "11 carrier strike groups providing global power projection",
+          "F-22/F-35 stealth air superiority and deep strike",
+          "Precision munitions (JDAM, LRASM, Tomahawk) with 1000+ km reach",
+          "Special Operations Command (SOCOM) with global reach",
+          "Dominant cyber warfare and space assets (GPS, ISR satellites)",
+          "Nuclear triad with survivable second-strike capability"
+        ],
+        "vulnerabilities": [
+          "Long supply lines to any Middle East or Pacific theater",
+          "Casualty sensitivity in democratic society limits ground operations",
+          "Forward bases in Gulf and Pacific vulnerable to ballistic missile salvo",
+          "A2AD threats constrain carrier group operations within 1000km of peer adversary coast",
+          "Overextension across multiple simultaneous theaters degrades effectiveness in each",
+          "155mm shell production was 14,000/month in 2022 vs 20,000+/day needed for peer war"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 27.4,
+        "national_debt_gdp_pct": 123,
+        "manufacturing_pct_gdp": 11,
+        "fire_sector_pct_gdp": 45,
+        "energy_independence": "Net exporter via shale (Permian Basin); no strategic energy vulnerability",
+        "sanctions_resilience": "Very high \u2014 controls SWIFT, dollar reserve currency, can impose rather than absorb sanctions",
+        "war_financing_capacity": "High short-term via deficit spending; constrained long-term by $34T+ debt and rising interest costs",
+        "industrial_mobilization": "Low \u2014 manufacturing offshored; defense industrial base hollowed during post-Cold War peace dividend",
+        "key_economic_weapons": [
+          "SWIFT exclusion",
+          "dollar weaponization",
+          "technology export controls (CHIPS Act)",
+          "sanctions regimes"
+        ]
+      },
+      "alliances": [
+        "NATO (Article 5)",
+        "Five Eyes",
+        "AUKUS",
+        "Quad",
+        "Japan-ROK bilateral security treaties",
+        "Israel special relationship ($3.8B annual military aid)"
+      ],
+      "notes": "Dominant global military power structurally constrained by financialized economy and $34T+ debt. Reserve currency status provides unique war financing capacity. Historically retreats after 5-7 years of unpopular wars due to democratic fatigue (Vietnam: yr7; Afghanistan: yr20). Low manufacturing base is the decisive long-war vulnerability."
+    },
+    {
+      "name": "Russia",
+      "military_strength": {
+        "active_personnel": 1150000,
+        "reserve": 2000000,
+        "nuclear_warheads": 6257,
+        "defense_budget_usd_bn": 109,
+        "key_capabilities": [
+          "Largest nuclear arsenal globally \u2014 full triad with hypersonic delivery (Kinzhal, Zircon)",
+          "Layered strategic air defense: S-300/S-400/S-500, 3000+ SAM batteries",
+          "Artillery mass \u2014 2000+ self-propelled guns, shell production reactivated to 3M/year",
+          "Electronic warfare dominance in contested European theater",
+          "Submarine fleet threatening NATO Atlantic supply lines",
+          "Hypersonic glide vehicles defeating current missile defense architectures"
+        ],
+        "vulnerabilities": [
+          "Precision-guided munition stockpile degraded; dependent on Iranian drone imports",
+          "Microelectronics sanctions limiting advanced weapons production",
+          "Officer casualty rates degrading command quality",
+          "Demographic decline: TFR 1.5, shrinking military-age cohort by 2030",
+          "Single-commodity (hydrocarbon) economy creates oil-price vulnerability"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 2.1,
+        "national_debt_gdp_pct": 17,
+        "manufacturing_pct_gdp": 28,
+        "fire_sector_pct_gdp": 22,
+        "energy_independence": "Major exporter \u2014 oil, gas, grain, fertilizer; energy is primary economic weapon",
+        "sanctions_resilience": "Moderate-high \u2014 adapted after 2014 and 2022 via China/India trade pivot",
+        "war_financing_capacity": "Moderate \u2014 resource revenues sustain at $70+/barrel oil; National Wealth Fund depleting",
+        "industrial_mobilization": "High \u2014 Soviet-era defense industrial base partially reactivated; 3x shell production 2022-2024",
+        "key_economic_weapons": [
+          "Energy supply cutoff to Europe",
+          "Grain/fertilizer export leverage",
+          "Arctic route control"
+        ]
+      },
+      "alliances": [
+        "CSTO (collective defense)",
+        "Belarus union state",
+        "China strategic partnership (no-limits)",
+        "Iran arms cooperation",
+        "SCO"
+      ],
+      "notes": "Low debt and resource wealth provide genuine war-sustainability advantage over Western opponents. Higher manufacturing-to-FIRE ratio than US/UK means better industrial war production. Nuclear arsenal provides escalation dominance. Authoritarian structure tolerates casualties without electoral pressure \u2014 ~200,000 KIA/WIA absorbed with political stability (2024)."
+    },
+    {
+      "name": "China",
+      "military_strength": {
+        "active_personnel": 2000000,
+        "reserve": 510000,
+        "nuclear_warheads": 500,
+        "defense_budget_usd_bn": 225,
+        "key_capabilities": [
+          "World's largest navy by hull count (370+ warships); shipbuilding capacity exceeds US",
+          "DF-21D/DF-26 carrier-killer missiles forcing US carriers 1000km+ from coast",
+          "DF-41 ICBM and DF-5B providing credible nuclear second-strike",
+          "Comprehensive A2AD in South/East China Sea across three island chains",
+          "World-leading hypersonic glide vehicle program (DF-17)",
+          "Cyber warfare and counter-space capabilities (ASAT tested 2007)"
+        ],
+        "vulnerabilities": [
+          "No significant combat experience since 1979 \u2014 untested operational command",
+          "Taiwan Strait amphibious invasion requires landing ship capacity currently insufficient",
+          "Malacca Strait dependency: 80% of oil imports transit this chokepoint",
+          "No deep-water navy combat tested against peer adversary",
+          "Political loyalty requirements may compromise military merit selection"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 17.7,
+        "national_debt_gdp_pct": 83,
+        "manufacturing_pct_gdp": 27,
+        "fire_sector_pct_gdp": 26,
+        "energy_independence": "Net importer \u2014 Malacca vulnerability is existential strategic constraint",
+        "sanctions_resilience": "Moderate \u2014 large domestic market; technology dependency on Western semiconductors is acute",
+        "war_financing_capacity": "High \u2014 $3.2T forex reserves, extensive domestic bond market",
+        "industrial_mobilization": "Very high \u2014 world's largest manufacturing base; can scale munitions production rapidly",
+        "key_economic_weapons": [
+          "Rare earth export controls (85% of global refining)",
+          "Semiconductor manufacturing scale",
+          "Treasury bond holdings ($800B+)"
+        ]
+      },
+      "alliances": [
+        "Russia strategic partnership (no-limits declaration)",
+        "Pakistan (iron brother, $62B CPEC)",
+        "SCO multilateral",
+        "Belt and Road dependency network (~150 countries)"
+      ],
+      "notes": "Industrial mobilization capacity is the decisive long-war advantage \u2014 can outproduce any adversary in conventional munitions within 2 years. Malacca dilemma is the one decisive strategic vulnerability: naval blockade could starve the economy within 6 months. Rare earth dominance ($160B/year global market) is an economic weapon with no short-term substitute."
+    },
+    {
+      "name": "Iran",
+      "military_strength": {
+        "active_personnel": 610000,
+        "reserve": 350000,
+        "nuclear_warheads": 0,
+        "nuclear_threshold": "Approximately 1-2 weeks from weapons-grade enrichment to device assembly; 60% enrichment achieved",
+        "defense_budget_usd_bn": 10,
+        "key_capabilities": [
+          "Proxy network: Hezbollah (100,000+ rockets), Houthis (Yemen), PMF (Iraq), Hamas (Gaza)",
+          "Ballistic missile arsenal: 3,000+ missiles including Shahab-3 (2,000km) and Fattah-1 hypersonic",
+          "Drone swarm warfare: Shahed-136 kamikaze drones at $20,000/unit, mass-producible",
+          "Strait of Hormuz control via coastal missiles, mines, and fast attack craft (IRGC Navy)",
+          "Underground hardened facilities (Fordow) resistant to conventional bunker-busters",
+          "Asymmetric A2AD negating US carrier superiority within Persian Gulf"
+        ],
+        "vulnerabilities": [
+          "No air force parity \u2014 F-14s and F-4s from 1970s, severely degraded",
+          "Economic isolation limits advanced weapons procurement",
+          "Internal ethnic tensions (Kurds 10%, Arabs 3%, Baloch 2%) exploitable by adversaries",
+          "Command structure split between regular army and IRGC creates friction"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 0.37,
+        "national_debt_gdp_pct": 30,
+        "manufacturing_pct_gdp": 22,
+        "fire_sector_pct_gdp": 18,
+        "energy_independence": "Major oil and gas exporter despite sanctions; 10% of global gas reserves",
+        "sanctions_resilience": "Very high \u2014 45 years of adaptation; shadow economy via UAE, Turkey, China",
+        "war_financing_capacity": "Moderate \u2014 constrained by sanctions but low debt provides flexibility",
+        "industrial_mobilization": "Moderate \u2014 domestic arms industry (Shahed drones exported to Russia in thousands)",
+        "key_economic_weapons": [
+          "Strait of Hormuz closure (20% of global oil supply)",
+          "Proxy cost imposition without direct engagement"
+        ]
+      },
+      "alliances": [
+        "Axis of Resistance: Hezbollah, Houthis, PMF, Palestinian Islamic Jihad",
+        "Russia (arms, strategic coordination)",
+        "China (trade, $400B 25-year deal)",
+        "SCO full member 2023"
+      ],
+      "notes": "Proxy network is Iran's strategic multiplier. Strait of Hormuz closure would spike global oil 50%+ within 72 hours. 45-year sanctions adaptation makes economic pressure less effective than Western planners assume."
+    },
+    {
+      "name": "Israel",
+      "military_strength": {
+        "active_personnel": 169500,
+        "reserve": 465000,
+        "nuclear_warheads": 90,
+        "defense_budget_usd_bn": 24,
+        "key_capabilities": [
+          "Iron Dome (90%+ intercept), David's Sling (medium), Arrow 2/3 (ballistic) \u2014 layered defense",
+          "F-35I Adir fleet with indigenous sensor suite",
+          "Mossad intelligence: human intelligence network across Arab world and Iran",
+          "Unit 8200 cyber warfare: Stuxnet-class offensive capability",
+          "Nuclear ambiguity \u2014 Samson Option provides existential deterrence"
+        ],
+        "vulnerabilities": [
+          "Small population (9.5M) cannot sustain multi-front attrition",
+          "Zero strategic depth: Tel Aviv is 15km from West Bank",
+          "Reserve mobilization requires 48-72 hours, vulnerable to surprise",
+          "Multi-front war simultaneously unsustainable",
+          "Internal political fragmentation weakens war cabinet decision-making"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 0.52,
+        "national_debt_gdp_pct": 62,
+        "manufacturing_pct_gdp": 16,
+        "fire_sector_pct_gdp": 38,
+        "energy_independence": "Gas self-sufficient via Leviathan offshore field",
+        "sanctions_resilience": "High \u2014 US backing provides economic buffers",
+        "war_financing_capacity": "High short-term with US emergency aid; constrained without US support",
+        "industrial_mobilization": "Moderate \u2014 world-class precision defense electronics but small industrial base",
+        "key_economic_weapons": [
+          "Technology export controls",
+          "Agricultural technology exports"
+        ]
+      },
+      "alliances": [
+        "United States (special relationship, $3.8B annual military aid)",
+        "Abraham Accords: UAE, Bahrain, Morocco, Sudan",
+        "India defense partnership (world's largest buyer of Israeli arms)"
+      ],
+      "notes": "Qualitative military edge maintained by US technology transfers. Core strategic constraint: 9.5M population requires decisive short wars \u2014 every day of multi-front war increases existential risk."
+    },
+    {
+      "name": "Saudi Arabia",
+      "military_strength": {
+        "active_personnel": 227000,
+        "reserve": 25000,
+        "nuclear_warheads": 0,
+        "defense_budget_usd_bn": 75,
+        "key_capabilities": [
+          "F-15SA advanced variant fleet with US munitions",
+          "Patriot PAC-3 air defense protecting oil infrastructure",
+          "ARAMCO oil infrastructure as economic lever (17% global reserves)"
+        ],
+        "vulnerabilities": [
+          "Yemen war revealed military limitations: 9 years, $100B+, Houthi threat unresolved",
+          "Abqaiq oil processing catastrophically vulnerable \u2014 2019 drone attack proved this",
+          "No nuclear deterrent; entirely dependent on US security umbrella",
+          "Military performance reliant on Western contractors and mercenaries"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 1.06,
+        "national_debt_gdp_pct": 24,
+        "manufacturing_pct_gdp": 12,
+        "fire_sector_pct_gdp": 20,
+        "energy_independence": "World's largest oil exporter; OPEC+ swing producer with 17% of global proven reserves",
+        "sanctions_resilience": "Low to moderate \u2014 oil price dependent; Vision 2030 diversification still nascent",
+        "war_financing_capacity": "High while oil above $60/barrel; breaks down rapidly below that threshold",
+        "industrial_mobilization": "Very low \u2014 no significant domestic defense manufacturing",
+        "key_economic_weapons": [
+          "OPEC+ production cuts",
+          "Petrodollar recycling leverage",
+          "Sovereign Wealth Fund ($750B PIF)"
+        ]
+      },
+      "alliances": [
+        "US security umbrella (CENTCOM basing)",
+        "GCC collective defense",
+        "OPEC+ (with Russia)"
+      ],
+      "notes": "Yemen war is the definitive evidence of military limitations despite Western hardware: bought the equipment, lacked the doctrine and institutional culture to use it effectively. Oil lever remains primary strategic instrument."
+    },
+    {
+      "name": "Turkey",
+      "military_strength": {
+        "active_personnel": 355000,
+        "reserve": 378000,
+        "nuclear_warheads": 0,
+        "us_tactical_nukes_hosted": 50,
+        "defense_budget_usd_bn": 19,
+        "key_capabilities": [
+          "Bayraktar TB2 and Akinci drones: combat-proven in Syria, Libya, Nagorno-Karabakh, Ukraine",
+          "Bosphorus/Dardanelles control under Montreux Convention",
+          "NATO's second-largest conventional army after US",
+          "Growing domestic defense industry reducing import dependence from 70% to 30%"
+        ],
+        "vulnerabilities": [
+          "NATO ally with independent foreign policy creates alliance management tension",
+          "Kurdish PKK insurgency remains unresolved",
+          "Economic instability (40%+ inflation 2022-2023) degrades procurement capacity",
+          "Russian gas dependency \u2014 leverage cuts both ways"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 1.11,
+        "national_debt_gdp_pct": 32,
+        "manufacturing_pct_gdp": 22,
+        "fire_sector_pct_gdp": 24,
+        "energy_independence": "Net energy importer; major Russian gas pipeline transit hub",
+        "sanctions_resilience": "Moderate \u2014 large diversified economy, trades with both Russia and West",
+        "war_financing_capacity": "Moderate \u2014 structural inflation constrains sustained defense spending",
+        "industrial_mobilization": "Moderate and rising \u2014 defense exports grew $1B (2012) to $6B (2023)",
+        "key_economic_weapons": [
+          "Bosphorus closure (Black Sea access)",
+          "NATO membership card as bargaining chip"
+        ]
+      },
+      "alliances": [
+        "NATO Article 5 member (independent posture)",
+        "Turkic Council (Central Asian states)",
+        "Mediation role between Russia and Ukraine"
+      ],
+      "notes": "Bosphorus control under Montreux Convention is decisive in any Black Sea conflict. Drone export program created influence across 30+ countries. Independent posture between Russia and NATO creates unique leverage \u2014 can extract concessions from both simultaneously."
+    },
+    {
+      "name": "India",
+      "military_strength": {
+        "active_personnel": 1450000,
+        "reserve": 1155000,
+        "nuclear_warheads": 164,
+        "defense_budget_usd_bn": 81,
+        "key_capabilities": [
+          "Nuclear triad capability (land ICBM, submarine SLBM, air-delivered)",
+          "Indian Ocean naval dominance: Andaman Islands forward base",
+          "Large ground forces optimized for Himalayan high-altitude warfare",
+          "BrahMos supersonic anti-ship missile (Mach 2.8, 500km range)",
+          "S-400 Triumf air defense system"
+        ],
+        "vulnerabilities": [
+          "Two-front war risk: simultaneous Pakistan and China pressure",
+          "High-altitude logistics in Ladakh sector: limited all-weather road and rail",
+          "Mixed equipment (Russian + Western + indigenous) creates logistics complexity"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 3.7,
+        "national_debt_gdp_pct": 83,
+        "manufacturing_pct_gdp": 17,
+        "fire_sector_pct_gdp": 28,
+        "energy_independence": "Major energy importer \u2014 85% of oil imported; Russia discount oil post-2022 reduces cost",
+        "sanctions_resilience": "Very high \u2014 strategic autonomy doctrine; trades with Russia, US, Israel, Iran simultaneously",
+        "war_financing_capacity": "Moderate \u2014 large growing economy but defense only 2% GDP",
+        "industrial_mobilization": "Moderate and improving \u2014 Make in India defense push",
+        "key_economic_weapons": [
+          "IT services dominance ($245B/year)",
+          "Pharmaceutical generics (60% of global generic drugs)"
+        ]
+      },
+      "alliances": [
+        "Quad (US, Japan, Australia \u2014 intelligence sharing)",
+        "BRICS",
+        "SCO",
+        "Non-Aligned Movement tradition"
+      ],
+      "notes": "Strategic autonomy doctrine: simultaneously buys arms from Russia, US, France, and Israel while refusing formal alignment. Demographic dividend: 1.4B population with median age 28.7 provides 20-30 year manpower advantage over aging China (median 39) and Russia (median 40)."
+    },
+    {
+      "name": "North Korea",
+      "military_strength": {
+        "active_personnel": 1280000,
+        "reserve": 600000,
+        "nuclear_warheads": 40,
+        "defense_budget_usd_bn": 4,
+        "key_capabilities": [
+          "Nuclear arsenal with ICBM delivery (Hwasong-17, range 15,000km \u2014 continental US range)",
+          "Largest artillery concentration in the world: 8,000+ guns within range of Seoul",
+          "Chemical and biological weapons stockpile (estimated 2,500-5,000 tons chemical)",
+          "Cyber capabilities (Lazarus Group) for financial theft and disruption"
+        ],
+        "vulnerabilities": [
+          "Near-autarkic economy dependent on China (90% of trade)",
+          "Chronic food insecurity: 42% population undernourished",
+          "Military equipment is 1970s-1980s Soviet vintage, poorly maintained",
+          "Fuel dependency on China makes sustained conventional war impossible without Beijing backing"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 0.04,
+        "national_debt_gdp_pct": 25,
+        "manufacturing_pct_gdp": 35,
+        "fire_sector_pct_gdp": 5,
+        "energy_independence": "Critically dependent on Chinese fuel imports",
+        "sanctions_resilience": "Moderate \u2014 fully autarkic model; arms exports and cyber theft fund weapons program",
+        "war_financing_capacity": "Very low for conventional war; nuclear deterrent is the cheap substitute",
+        "industrial_mobilization": "Moderate in defense sector; economy fully militarized (Songun policy)",
+        "key_economic_weapons": [
+          "Artillery bombardment of Seoul as hostage deterrent",
+          "Cyber theft ($3B estimated 2016-2023)"
+        ]
+      },
+      "alliances": [
+        "China (implicit patron)",
+        "Russia (arms cooperation from 2023)",
+        "De facto isolation beyond patron relationships"
+      ],
+      "notes": "Kim regime correctly identified nuclear weapons as the only reliable deterrent to regime change \u2014 Libya and Iraq abandoned WMD programs and were overthrown. Artillery threat to Seoul (25M metro, 40km from border) creates hostage deterrent below nuclear threshold. Chinese fuel cutoff = regime collapse within months."
+    },
+    {
+      "name": "Pakistan",
+      "military_strength": {
+        "active_personnel": 654000,
+        "reserve": 550000,
+        "nuclear_warheads": 165,
+        "defense_budget_usd_bn": 10,
+        "key_capabilities": [
+          "Nuclear arsenal with Nasr tactical missile (60km) \u2014 world's lowest declared nuclear threshold",
+          "China-supplied JF-17 Thunder fighters (100+ aircraft)",
+          "ISI intelligence service: sophisticated covert operations and proxy warfare"
+        ],
+        "vulnerabilities": [
+          "Severe fiscal crisis: IMF dependency, near-depletion foreign exchange episodes",
+          "Internal insurgency: TTP Pashtun Taliban fighting Pakistani state continuously",
+          "Civil-military imbalance: army operates as state-within-a-state",
+          "Water scarcity: Indus River dependency shared with India \u2014 existential in long conflict"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 0.34,
+        "national_debt_gdp_pct": 78,
+        "manufacturing_pct_gdp": 19,
+        "fire_sector_pct_gdp": 22,
+        "energy_independence": "Net energy importer; severe energy sector circular debt ($15B+)",
+        "sanctions_resilience": "Low \u2014 IMF-dependent; Western sanctions would be rapidly crippling",
+        "war_financing_capacity": "Very low \u2014 war with India requires immediate Chinese financial backstop",
+        "industrial_mobilization": "Low-moderate \u2014 some domestic defense (POF munitions, JF-17 assembly) but largely import-dependent",
+        "key_economic_weapons": [
+          "Nuclear deterrent as asymmetric equalizer against India's conventional superiority"
+        ]
+      },
+      "alliances": [
+        "China (CPEC, $62B investment, primary arms supplier)",
+        "Saudi Arabia (financial patron)",
+        "Turkey (drone technology cooperation)"
+      ],
+      "notes": "Pakistan army exists primarily to fight India, not to defend the state from all threats. Nasr tactical nuclear missile explicitly lowers nuclear threshold to deter India's Cold Start conventional doctrine. ISI proxy warfare capability (Afghanistan, Kashmir) imposes costs on India below the war threshold."
+    },
+    {
+      "name": "Germany",
+      "military_strength": {
+        "active_personnel": 183000,
+        "reserve": 30000,
+        "nuclear_warheads": 0,
+        "us_tactical_nukes_hosted": 20,
+        "defense_budget_usd_bn": 55,
+        "key_capabilities": [
+          "Leopard 2 main battle tank (world's most exported Western MBT \u2014 3,500 in service globally)",
+          "European Typhoon air superiority fighters",
+          "Advanced submarine force (Type 212A air-independent propulsion)",
+          "Rheinmetall defense industrial complex: Europe's largest ammunition and armor producer"
+        ],
+        "vulnerabilities": [
+          "Bundeswehr chronically underfunded for 30 years (post-Cold War peace dividend): equipment readiness ~50% in 2022",
+          "No nuclear deterrent; entirely dependent on US nuclear umbrella (NATO Article 5)",
+          "Russian gas dependency (55% of gas from Russia pre-2022) now severed \u2014 transition painful",
+          "Constitutional constraints (Basic Law Article 87a) historically limited out-of-area operations"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 4.1,
+        "national_debt_gdp_pct": 66,
+        "manufacturing_pct_gdp": 22,
+        "fire_sector_pct_gdp": 26,
+        "energy_independence": "Net energy importer; pivoting from Russian gas to LNG imports (Qatar, US)",
+        "sanctions_resilience": "High \u2014 diverse export economy, eurozone membership, EU market access",
+        "war_financing_capacity": "High \u2014 low debt, Europe's largest economy, \u20ac100B special Bundeswehr fund announced 2022",
+        "industrial_mobilization": "Moderate-high \u2014 world-class industrial base (Volkswagen, BASF, Siemens, Rheinmetall) but defense manufacturing atrophied post-Cold War",
+        "key_economic_weapons": [
+          "Export technology controls",
+          "EU single market gatekeeper role",
+          "Euro stability anchor"
+        ]
+      },
+      "alliances": [
+        "NATO (core member, Article 5)",
+        "EU (de facto military leader post-Brexit)",
+        "Franco-German axis (European strategic autonomy project)"
+      ],
+      "notes": "Zeitenwende (historical turning point) declared February 2022 after Russian invasion: Germany pledging 2% GDP defense spending and \u20ac100B special Bundeswehr fund. Industrial capacity to rearm is enormous \u2014 Rheinmetall alone can scale artillery shell production from 70,000 to 1.4M shells/year within 3 years. The constraint is political will and speed of procurement reform, not industrial capacity."
+    },
+    {
+      "name": "France",
+      "military_strength": {
+        "active_personnel": 203000,
+        "reserve": 41000,
+        "nuclear_warheads": 290,
+        "defense_budget_usd_bn": 54,
+        "key_capabilities": [
+          "Independent nuclear deterrent (Force de Frappe) \u2014 only EU nuclear power post-Brexit",
+          "Charles de Gaulle aircraft carrier (sole non-US nuclear-powered carrier outside US)",
+          "Rafale multirole fighter (proven in Libya, Mali, Syria, Iraq operations)",
+          "Foreign Legion (6,000 professionals) \u2014 elite rapid deployment force",
+          "SCALP/Storm Shadow cruise missiles (1,000km range)",
+          "Operation Barkhane-type expeditionary capability in Africa"
+        ],
+        "vulnerabilities": [
+          "Small professional army for a major power (203,000 active)",
+          "Aging nuclear arsenal requiring expensive modernization (SNV submarine refresh)",
+          "Africa operations failed: expelled from Mali (2022), Burkina Faso (2023), Niger (2023) \u2014 Wagner replaced France",
+          "Domestic political fragmentation (far-right/far-left growth) constrains overseas commitments"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 3.0,
+        "national_debt_gdp_pct": 111,
+        "manufacturing_pct_gdp": 10,
+        "fire_sector_pct_gdp": 30,
+        "energy_independence": "70% nuclear electricity generation (57 reactors) \u2014 low carbon exposure; oil importer",
+        "sanctions_resilience": "High \u2014 eurozone, nuclear power, UNSC veto, diverse exports",
+        "war_financing_capacity": "Moderate \u2014 high debt constrains surge spending; nuclear arsenal maintenance competes with conventional",
+        "industrial_mobilization": "Moderate \u2014 MBDA missiles, Thales electronics, Naval Group submarines; but small manufacturing base",
+        "key_economic_weapons": [
+          "UNSC veto power",
+          "Nuclear technology exports (60+ reactors contracted globally)",
+          "Airbus (40% global airliner market)"
+        ]
+      },
+      "alliances": [
+        "NATO (independent nuclear posture within)",
+        "EU (co-leader)",
+        "Francafrique sphere (35 African states)",
+        "UNSC permanent member"
+      ],
+      "notes": "Only EU nuclear power post-Brexit \u2014 France's Force de Frappe is Europe's independent deterrent if US commitment wavers. Africa expulsion (Mali, Burkina Faso, Niger 2022-2023) to Wagner is the most significant French strategic defeat since Algeria. Macron's 'European strategic autonomy' doctrine is the French effort to reduce NATO dependence on US while retaining alliance benefits."
+    },
+    {
+      "name": "Japan",
+      "military_strength": {
+        "active_personnel": 247000,
+        "reserve": 56000,
+        "nuclear_warheads": 0,
+        "us_tactical_nukes_nearby": 0,
+        "defense_budget_usd_bn": 51,
+        "key_capabilities": [
+          "F-35A/B fleet (147 ordered \u2014 one of world's largest F-35 customers)",
+          "8 Aegis destroyers providing ballistic missile defense",
+          "JS Izumo and JS Kaga carriers being converted to F-35B capability",
+          "Tomahawk cruise missiles (acquired 2024 \u2014 400 ordered, ending decades of no-strike-capability)",
+          "Advanced submarine force (22 diesel-electric submarines, world-class)",
+          "Cyber defense command established 2022, planned 4,000 personnel"
+        ],
+        "vulnerabilities": [
+          "Article 9 constitutional pacifism constraining reinterpretation politically",
+          "88% of oil imports transit Malacca Strait \u2014 same vulnerability as China",
+          "Extremely aging population (median age 48) limiting conscript pool",
+          "Domestic political opposition to rearmament from peace movement",
+          "Three missile threats simultaneously: China DF-21D, North Korea Nodong/Hwasong, Russia Iskander in Far East"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 4.2,
+        "national_debt_gdp_pct": 264,
+        "manufacturing_pct_gdp": 20,
+        "fire_sector_pct_gdp": 25,
+        "energy_independence": "Major energy importer (oil and LNG); nuclear electricity rebuilding post-Fukushima",
+        "sanctions_resilience": "Moderate \u2014 dollar holdings, technology exports; vulnerable to energy supply disruption",
+        "war_financing_capacity": "Unusual: 264% debt/GDP but almost entirely domestic (no foreign debt vulnerability); JGB market stable due to captive domestic institutional buyers",
+        "industrial_mobilization": "High \u2014 world-class manufacturing (Toyota, Mitsubishi Heavy Industries, IHI, Kawasaki) with rapid conversion potential",
+        "key_economic_weapons": [
+          "Semiconductor equipment exports (ASML-level control of lithography chemicals/coatings via JSR, Shin-Etsu)",
+          "Automotive supply chain dominance",
+          "World's largest creditor nation ($3.5T net foreign assets)"
+        ]
+      },
+      "alliances": [
+        "US-Japan Security Treaty (Article 5 applies, 54,000 US troops in Japan)",
+        "Quad (US, India, Australia)",
+        "AUKUS dialogue partner",
+        "Korea-Japan intelligence sharing (GSOMIA)"
+      ],
+      "notes": "Doubling defense budget 2023-2027 (1% \u2192 2% GDP) is the largest Japanese rearmament since WWII. Tomahawk acquisition is strategically significant \u2014 Japan now has counter-strike capability for first time since 1945. Taiwan strait vital: 88% of Japanese oil transits past Taiwan. North Korea ballistic missile tests (2017, 2022-2023 overflights of Japan) drove public support for rearmament to historic highs."
+    },
+    {
+      "name": "South Korea",
+      "military_strength": {
+        "active_personnel": 555000,
+        "reserve": 3100000,
+        "nuclear_warheads": 0,
+        "us_troops_stationed": 28500,
+        "defense_budget_usd_bn": 45,
+        "key_capabilities": [
+          "K2 Black Panther main battle tank (arguably world's most advanced MBT \u2014 1,000 ordered by Poland)",
+          "K9 Thunder self-propelled howitzer (world's best-selling \u2014 sold to 10+ countries)",
+          "F-35A/B fleet and indigenous KF-21 Boramae 4.5-gen fighter in development",
+          "3 KDX-III Aegis destroyers with SM-3 ballistic missile defense",
+          "THAAD battery defending Seoul/Pyeongtaek (US-operated)",
+          "Samsung/Hanwha defense industrial complex producing world-competitive platforms"
+        ],
+        "vulnerabilities": [
+          "Seoul (25M metro) is 40km from North Korea border \u2014 hostage to artillery within minutes",
+          "K-defense export success creates geopolitical complications (Poland, Romania, Australia relationships)",
+          "Demographic crisis: TFR 0.72 (2023) \u2014 world's lowest \u2014 creates 20-year military manpower cliff",
+          "No independent nuclear deterrent; relies on US extended deterrence (nuclear umbrella)"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 1.7,
+        "national_debt_gdp_pct": 54,
+        "manufacturing_pct_gdp": 27,
+        "fire_sector_pct_gdp": 25,
+        "energy_independence": "Major energy importer; world's 3rd largest LNG importer",
+        "sanctions_resilience": "Moderate \u2014 export-dependent economy (40% exports/GDP) vulnerable to trade disruption",
+        "war_financing_capacity": "High \u2014 moderate debt, disciplined fiscal policy, large forex reserves ($420B)",
+        "industrial_mobilization": "Very high \u2014 Samsung, Hyundai, POSCO, LG can pivot rapidly; semiconductor fabs are dual-use",
+        "key_economic_weapons": [
+          "Semiconductor manufacturing (Samsung Foundry, SK Hynix \u2014 30%+ of global DRAM/NAND)",
+          "Shipbuilding (2nd globally, 30% of global orders)",
+          "Defense exports ($17B in 2022 \u2014 world's 9th largest exporter)"
+        ]
+      },
+      "alliances": [
+        "US-ROK Mutual Defense Treaty (US provides nuclear umbrella)",
+        "THAAD deployment agreement",
+        "Growing Japan-ROK-US trilateral security cooperation"
+      ],
+      "notes": "K-defense export success is transforming South Korea into a mid-tier geopolitical power beyond its size. TFR 0.72 (2023) is the world's lowest \u2014 the demographic cliff will reduce military-age population 40% by 2040, making near-term defense investment critical. North Korea artillery threat to Seoul is the asymmetric deterrent that makes pre-emptive conventional war extremely costly for both sides."
+    },
+    {
+      "name": "United Arab Emirates",
+      "military_strength": {
+        "active_personnel": 65000,
+        "reserve": 40000,
+        "nuclear_warheads": 0,
+        "defense_budget_usd_bn": 22,
+        "key_capabilities": [
+          "F-16 Block 60 Desert Falcon (most advanced F-16 variant ever built \u2014 better than US own)",
+          "Bayraktar TB2 and Wing Loong II drone fleets, combat-proven in Libya and Yemen",
+          "Mirage 2000-9 fleet with MICA missiles",
+          "Yemen combat experience (2015-2019): UAE forces most effective Arab military in field",
+          "Sovereign wealth fund ($1.4T combined: ADIA, Mubadala, ADQ) as geopolitical instrument"
+        ],
+        "vulnerabilities": [
+          "Small population (only 1M citizens out of 9.5M total \u2014 88% expatriates)",
+          "No strategic depth \u2014 entire country within Iranian missile range",
+          "Dubai financial hub vulnerable to Iranian disruption (proximity to Hormuz)",
+          "Dependent on US security umbrella for existential deterrence"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 0.5,
+        "national_debt_gdp_pct": 30,
+        "manufacturing_pct_gdp": 9,
+        "fire_sector_pct_gdp": 26,
+        "energy_independence": "Major oil exporter; ADNOC controls $800B+ in oil assets",
+        "sanctions_resilience": "High \u2014 Dubai is global sanctions-busting hub; trades with Iran, Russia, and West simultaneously",
+        "war_financing_capacity": "Very high \u2014 sovereign wealth funds ($1.4T) can finance prolonged engagement without touching GDP",
+        "industrial_mobilization": "Low domestically; but SWF can purchase defense capacity globally",
+        "key_economic_weapons": [
+          "Sovereign Wealth Fund ($1.4T) as geopolitical investment tool",
+          "Dubai as global financial and trade hub",
+          "OPEC member swing capacity"
+        ]
+      },
+      "alliances": [
+        "US security partner (CENTCOM forward HQ)",
+        "Abraham Accords (Israel normalization 2020)",
+        "Saudi Arabia GCC",
+        "India strategic partnership",
+        "China major trading partner and BRI node"
+      ],
+      "notes": "Abraham Accords made UAE-Israel the most consequential secret intelligence partnership in the Middle East \u2014 sharing targeting data on Iran is the unspoken core of the agreement. UAE sovereign wealth funds ($1.4T) give economic leverage far exceeding GDP. Yemen operation (2015-2019) proved UAE military effectiveness \u2014 UAE forces performed better than Saudi coalition partners and withdrew strategically when objectives were met."
+    },
+    {
+      "name": "Egypt",
+      "military_strength": {
+        "active_personnel": 438500,
+        "reserve": 479000,
+        "nuclear_warheads": 0,
+        "defense_budget_usd_bn": 6,
+        "key_capabilities": [
+          "3rd largest army in Middle East: 1,360 M1A1 Abrams tanks (assembled in Egypt under US license)",
+          "F-16 fleet (220+ aircraft) plus new Rafale fighters (30 delivered, 24 more on order)",
+          "Suez Canal control \u2014 $9.4B/year revenue and global transit chokepoint",
+          "Large submarine and corvette fleet in Mediterranean/Red Sea"
+        ],
+        "vulnerabilities": [
+          "Economic fragility: $165B external debt, IMF dependency, pound devaluation episodes",
+          "GERD dam threatens Nile water security \u2014 existential for 105M population dependent on Nile",
+          "Internal Islamist insurgency (Sinai Province/ISIS affiliate) ongoing low-level conflict",
+          "Military equipment mix (US + Russian + French) creates maintenance and interoperability complexity"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 0.47,
+        "national_debt_gdp_pct": 87,
+        "manufacturing_pct_gdp": 17,
+        "fire_sector_pct_gdp": 22,
+        "energy_independence": "Gas self-sufficient (Zohr field discovery 2015); LNG exporter",
+        "sanctions_resilience": "Moderate \u2014 Gulf financial patron backing (Saudi/UAE deposits); IMF backstop",
+        "war_financing_capacity": "Low \u2014 fiscal crisis endemic; any war requires immediate Gulf financial support",
+        "industrial_mobilization": "Moderate \u2014 domestic military industries (ammunition, armored vehicles, ships) at Arab level",
+        "key_economic_weapons": [
+          "Suez Canal closure ($9.4B/year revenue; 15% of global trade hostage)",
+          "Gaza crisis management (diplomatic leverage)",
+          "Nile water control vs. upstream Ethiopia"
+        ]
+      },
+      "alliances": [
+        "US major non-NATO ally ($1.3B annual military aid)",
+        "Saudi Arabia/UAE financial patron",
+        "Peace treaty with Israel (Camp David 1979 \u2014 enduring)",
+        "Russia (Rafale competitor; also buying Russian weapons)"
+      ],
+      "notes": "Camp David peace treaty with Israel has endured 45+ years \u2014 the most durable Arab-Israeli diplomatic achievement. GERD dam (Grand Ethiopian Renaissance Dam) is Egypt's first existential water security threat: Nile provides 97% of freshwater for 105M Egyptians. Military coup tradition (1952, 2013) makes civil-military relations the decisive internal variable \u2014 the army controls 40% of the formal economy."
+    },
+    {
+      "name": "Brazil",
+      "military_strength": {
+        "active_personnel": 335000,
+        "reserve": 1340000,
+        "nuclear_warheads": 0,
+        "defense_budget_usd_bn": 19,
+        "key_capabilities": [
+          "Largest military in South America",
+          "Amazon surveillance system (SIPAM/SISFRON) protecting world's largest forest",
+          "Nuclear submarine program (\u00c1lvaro Alberto) in development \u2014 hull complete, reactor pending",
+          "Embraer defense aircraft (KC-390 military transport competing with C-130)",
+          "UN peacekeeping tradition (MINUSTAH Haiti command, MONUC)"
+        ],
+        "vulnerabilities": [
+          "No major external military threat \u2014 military oriented toward domestic order/Amazon rather than warfighting",
+          "Nuclear submarine program 25+ years late; reactor technology still not mastered",
+          "Political instability: military flirted with Bolsonaro coup 2022 \u2014 civil-military tension elevated",
+          "Amazon defense: 8.5M km\u00b2 territory with minimal physical infrastructure"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 2.1,
+        "national_debt_gdp_pct": 88,
+        "manufacturing_pct_gdp": 11,
+        "fire_sector_pct_gdp": 31,
+        "energy_independence": "Net oil exporter (pre-salt deep water reserves); 85% electricity from hydropower",
+        "sanctions_resilience": "High \u2014 large domestic market, commodity exporter, multiple trading partners; strategically non-aligned",
+        "war_financing_capacity": "Moderate \u2014 large economy but high debt and structural fiscal deficits limit surge capacity",
+        "industrial_mobilization": "Low-moderate \u2014 industrial base exists but not defense-oriented; agriculture is the mobilization asset",
+        "key_economic_weapons": [
+          "Amazon as climate leverage (60% of world's largest carbon sink)",
+          "Agricultural export leverage: 40% of world soybean exports (China's food security)",
+          "Iron ore dominance (Vale: 25% of global iron ore)"
+        ]
+      },
+      "alliances": [
+        "BRICS",
+        "Mercosur",
+        "UNSC non-permanent ambition (wants permanent seat)",
+        "Non-aligned tradition",
+        "China (largest trading partner, 30% of exports)"
+      ],
+      "notes": "Amazon is the strategic asset no military can replace \u2014 Brazil's 60% control of the world's largest terrestrial carbon sink gives climate leverage in multilateral diplomacy. China dependency (buys 30% of Brazilian exports, primarily soybeans) creates economic leverage but also vulnerability. Military junta history (1964-1985) means civil-military relations remain loaded \u2014 the 2022 Bolsonaro-military flirtation with electoral rejection showed institutional resilience held, but narrowly."
+    },
+    {
+      "name": "Ethiopia",
+      "military_strength": {
+        "active_personnel": 200000,
+        "reserve": 0,
+        "nuclear_warheads": 0,
+        "defense_budget_usd_bn": 0.8,
+        "key_capabilities": [
+          "Battle-hardened from Tigray Civil War (2020-2022) \u2014 largest war by casualties globally during that period",
+          "Drone warfare experience: acquired Turkish Bayraktar TB2 and Chinese Wing Loong II for Tigray conflict",
+          "GERD dam (Grand Ethiopian Renaissance Dam) as strategic leverage over Egypt/Sudan",
+          "Large population (125M) providing manpower pool"
+        ],
+        "vulnerabilities": [
+          "Landlocked since Eritrea independence (1993) \u2014 lost Red Sea access, dependent on Djibouti port",
+          "Tigray War revealed fragmented ethnic military structure (regional forces, Amhara militias)",
+          "Persistent ethnic conflicts across Oromia, Amhara, Somali regions",
+          "Economy dependent on aid and remittances; defense budget tiny"
+        ]
+      },
+      "economy": {
+        "gdp_usd_trillion": 0.13,
+        "national_debt_gdp_pct": 55,
+        "manufacturing_pct_gdp": 8,
+        "fire_sector_pct_gdp": 12,
+        "energy_independence": "Major hydropower potential (GERD 6,450MW when complete); still energy poor",
+        "sanctions_resilience": "Moderate \u2014 China infrastructure investment provides alternative to Western aid",
+        "war_financing_capacity": "Very low \u2014 among world's poorest countries per capita; war is economically catastrophic",
+        "industrial_mobilization": "Very low \u2014 no domestic defense industry; dependent on Chinese and Turkish weapons imports",
+        "key_economic_weapons": [
+          "GERD dam water control (existential leverage over Egypt's 105M population)",
+          "African Union host (geopolitical soft power)",
+          "Coffee exports (Ethiopian Arabica premium brand)"
+        ]
+      },
+      "alliances": [
+        "African Union (headquarters in Addis Ababa)",
+        "China (largest infrastructure investor)",
+        "US counter-terrorism partner",
+        "IGAD regional bloc"
+      ],
+      "notes": "GERD dam is the most consequential unresolved water dispute in the world \u2014 Egypt's 105M people depend on the Nile for 97% of freshwater, and Ethiopia's filling of the reservoir directly threatens Egyptian agriculture. Tigray Civil War (2020-2022) killed an estimated 300,000-500,000 \u2014 the largest war globally by casualties during that period, almost entirely unreported by Western media. Loss of Eritrea's Red Sea access in 1993 is the decisive strategic constraint: Ethiopia is seeking port access via Somalia, which creates friction with regional neighbors."
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "Vietnam War",
+      "period": "1955-1975",
+      "parties": [
+        "United States",
+        "South Vietnam",
+        "North Vietnam",
+        "Viet Cong",
+        "China (supply)",
+        "Soviet Union (supply)"
+      ],
+      "outcome": "US strategic defeat \u2014 withdrawal 1973, North Vietnamese unification victory 1975",
+      "duration_years": 20,
+      "key_lessons": [
+        "Superpower air and firepower superiority negated by insurgency terrain and popular support \u2014 7M tons of bombs dropped, war still lost",
+        "Democratic societies cannot sustain unpopular wars beyond 5-7 years: the Cronkite Moment (1968) marks the political inflection point",
+        "Proxy funding (USSR: $8B, China: $20B) enables small power to bleed superpower indefinitely at asymmetric cost",
+        "Body bag sensitivity: 58,220 US KIA triggered domestic political collapse while 1.1M North Vietnamese KIA did not",
+        "Absence of defined victory condition is fatal: containment is not an achievable military objective"
+      ],
+      "outcome_probability_model": "Superpower vs. indigenous insurgency with external state sponsor: 65% probability of superpower strategic withdrawal within 15 years"
+    },
+    {
+      "name": "Soviet-Afghan War",
+      "period": "1979-1989",
+      "parties": [
+        "Soviet Union",
+        "Afghan Mujahideen",
+        "United States (CIA Operation Cyclone)",
+        "Pakistan (ISI sanctuary)",
+        "Saudi Arabia (funding)"
+      ],
+      "outcome": "Soviet withdrawal February 1989; Afghan communist government collapsed 1992; USSR dissolved 1991",
+      "duration_years": 10,
+      "key_lessons": [
+        "Mountainous terrain (Hindu Kush) multiplies defender effectiveness 3-5x; Soviet armor was operationally useless in valleys",
+        "US Stinger MANPADS (supplied 1986) ended Soviet air superiority \u2014 single weapon system changed operational balance",
+        "CIA Operation Cyclone: $2B US + $2B Saudi aid = decisive proxy investment at 25:1 cost leverage vs. Soviet direct spending",
+        "Afghanistan's historical pattern: British defeated (1842, 1919), Soviets defeated (1989), US defeated (2021)",
+        "Economic cost combined with internal reformist pressure created regime-collapse cascade"
+      ],
+      "outcome_probability_model": "Foreign occupation of Afghanistan: 95% probability of withdrawal within 15 years based on three separate superpower attempts"
+    },
+    {
+      "name": "Gulf War",
+      "period": "1990-1991",
+      "parties": [
+        "US-led Coalition (34 nations)",
+        "Iraq"
+      ],
+      "outcome": "Decisive Coalition victory \u2014 Kuwait liberated in 100-hour ground operation",
+      "duration_years": 0.5,
+      "key_lessons": [
+        "Overwhelming conventional force superiority (10:1 armor ratio) in open desert terrain is decisive",
+        "Air campaign (38 days, 100,000+ sorties) before ground assault degrades adversary 60-70% before contact",
+        "Clear limited political objective (Kuwait liberation, not regime change) enables clean victory without quagmire",
+        "Coalition of 34 nations provides political legitimacy and burden-sharing (Saudi Arabia paid 55% of costs)"
+      ],
+      "outcome_probability_model": "Conventional war, open terrain, 10:1 force ratio advantage: 95%+ probability of decisive victory within 6 months"
+    },
+    {
+      "name": "Iraq War",
+      "period": "2003-2011",
+      "parties": [
+        "United States",
+        "Coalition",
+        "Iraq (Saddam regime)",
+        "Sunni Insurgency",
+        "Al-Qaeda in Iraq",
+        "Iranian-backed Shia militias"
+      ],
+      "outcome": "US tactical victory in 21 days; 8-year occupation; strategic failure \u2014 Iraq became Iranian sphere of influence",
+      "duration_years": 8,
+      "key_lessons": [
+        "Rapid conventional victory followed by decade of insurgency \u2014 failure to plan Phase IV stabilization",
+        "Disbanding Iraqi army (450,000 soldiers) created instant insurgent recruiting pool",
+        "Iran's strategic gain: arch-enemy Saddam removed at zero Iranian cost",
+        "$2T+ cost, 4,492 US KIA, 600,000-1M Iraqi civilian deaths \u2014 negative return on objectives by any metric"
+      ],
+      "outcome_probability_model": "Urban insurgency following conventional victory without political settlement: 80% probability of strategic failure even with tactical dominance"
+    },
+    {
+      "name": "Falklands War",
+      "period": "1982",
+      "parties": [
+        "United Kingdom",
+        "Argentina"
+      ],
+      "outcome": "British military victory \u2014 islands recaptured after 74 days of combat",
+      "duration_years": 0.2,
+      "key_lessons": [
+        "Political will and professional military culture decisive over geographic proximity \u2014 UK fought 8,000 miles from home",
+        "Argentine air force near-decisive: 25 British ships hit, 6 sunk \u2014 if 30% more bombs had detonated, UK fleet destroyed",
+        "Political miscalculation: Argentina assumed US would restrain UK \u2014 failed to understand Thatcher-Reagan alliance",
+        "Defender with political will and external logistics support can always retake islands"
+      ],
+      "outcome_probability_model": "Conventionally-superior power retaking islands at 8,000km distance: 60% probability of success \u2014 logistics and air superiority are decisive"
+    },
+    {
+      "name": "Yom Kippur War",
+      "period": "October 1973",
+      "parties": [
+        "Egypt",
+        "Syria",
+        "Israel",
+        "United States (Operation Nickel Grass)",
+        "Soviet Union (resupply)"
+      ],
+      "outcome": "Israeli tactical recovery after near-catastrophic initial defeats; Egyptian political objective achieved (basis for Camp David)",
+      "duration_years": 0.08,
+      "key_lessons": [
+        "Surprise coordinated multi-front offensive nearly overcame qualitative military edge \u2014 intelligence failure catastrophic",
+        "US Nickel Grass airlift (22,325 tons in 32 days) was decisive: replenished ammunition Israel would have exhausted in 10 days",
+        "OPEC oil embargo: 400% oil price spike, US recession \u2014 economic weapon proven decisive in post-war environment",
+        "Attrition rates consumed ammunition at 100x planning assumptions \u2014 peacetime stockpile models are systematically wrong"
+      ],
+      "outcome_probability_model": "Near-peer surprise multi-front attack: 45% probability of defender catastrophic reversal in first 72 hours; recoverable with external support"
+    },
+    {
+      "name": "Iran-Iraq War",
+      "period": "1980-1988",
+      "parties": [
+        "Iraq (Saddam Hussein)",
+        "Iran (Islamic Republic)"
+      ],
+      "outcome": "Stalemate \u2014 UN ceasefire; no territorial change; 500,000-1,000,000 killed",
+      "duration_years": 8,
+      "key_lessons": [
+        "Ideological mobilization (Basij volunteer martyrdom doctrine) compensates for material inferiority",
+        "Chemical weapons use by Iraq normalized by Western silence \u2014 taboo erosion with geopolitical impunity",
+        "8-year war exhausted both economies: Iran GDP fell 50%, Iraq accumulated $130B debt",
+        "Attritional war without decisive terrain objectives produces stalemate regardless of initial advantage"
+      ],
+      "outcome_probability_model": "Near-peer ideological war without clear territorial objective: 70% probability of multi-year attritional stalemate exhausting both economies"
+    },
+    {
+      "name": "Russo-Ukraine War",
+      "period": "2022-present",
+      "parties": [
+        "Russia",
+        "Ukraine",
+        "NATO (material support \u2014 $100B+)",
+        "Global South (neutral-to-Russia)"
+      ],
+      "outcome": "Ongoing \u2014 attritional war; Russian territorial control ~20% of Ukraine; Ukrainian resistance sustained by Western aid",
+      "duration_years": 3,
+      "key_lessons": [
+        "Russian rapid-victory assumption failed: Kyiv feint exposed strategic intelligence failure",
+        "Western sanctions ($300B frozen, SWIFT exclusion) less decisive than projected \u2014 Russia adapted via China/India pivot",
+        "Drone warfare economics: $20,000 Shahed-136 vs. $2-4M Patriot intercept = 100-200:1 cost asymmetry unsustainable for defender",
+        "Industrial warfare has returned: 155mm shell production became the decisive constraint; Russia produces 3M/year, NATO ~900,000 combined",
+        "NATO material support without direct engagement sustains Ukrainian resistance at proxy war economics"
+      ],
+      "outcome_probability_model": "Attritional war with external support asymmetry: outcome depends on who exhausts industrial production, political will, or manpower first \u2014 no decisive outcome within 3 years suggests eventual negotiated partition"
+    },
+    {
+      "name": "Korean War",
+      "period": "1950-1953",
+      "parties": [
+        "United States/UN Coalition",
+        "South Korea",
+        "North Korea",
+        "China (October 1950 intervention)",
+        "Soviet Union (air cover)"
+      ],
+      "outcome": "Armistice \u2014 no peace treaty; peninsula divided near original line; 70+ years unresolved",
+      "duration_years": 3,
+      "key_lessons": [
+        "MacArthur's advance to Yalu River triggered Chinese intervention \u2014 threat to great power buffer state invites direct intervention",
+        "Chinese human-wave tactics (270,000 troops) overwhelmed US forces initially despite firepower advantage",
+        "Limited war doctrine: nuclear use restrained against nuclear-armed adversary's patron \u2014 set critical precedent",
+        "Stalemate produces frozen conflict: 70+ years still technically at war \u2014 armistice is not resolution"
+      ],
+      "outcome_probability_model": "Limited war involving nuclear-armed great power patron: 85% probability of stalemate at some intermediate line rather than total victory for either side"
+    },
+    {
+      "name": "Israel-Lebanon Wars (1982, 2006)",
+      "period": "1982 and 2006",
+      "parties": [
+        "Israel",
+        "PLO/Hezbollah",
+        "Lebanon",
+        "Syria (1982)"
+      ],
+      "outcome": "1982: Israeli tactical victory, strategic failure \u2014 PLO expelled but Hezbollah created. 2006: Hezbollah strategic victory \u2014 survived, declared victory, retained weapons",
+      "duration_years": 2,
+      "key_lessons": [
+        "1982: Creating a vacuum (expelling PLO) generated a worse adversary (Hezbollah) \u2014 military solutions to political problems create successor problems",
+        "2006: Precision air power alone cannot defeat disciplined guerrilla force with deep fortifications and popular support",
+        "Iran used both conflicts to build Hezbollah into a state-within-a-state \u2014 proxy investment yielding strategic depth",
+        "Ceasefire without disarmament is not a solution \u2014 UNSCR 1701 preserved Hezbollah's arsenal"
+      ],
+      "outcome_probability_model": "Air power vs. entrenched guerrilla with deep tunnel network and popular support: 70% probability of military stalemate even with overwhelming firepower"
+    },
+    {
+      "name": "Six-Day War",
+      "period": "June 1967",
+      "parties": [
+        "Israel",
+        "Egypt",
+        "Jordan",
+        "Syria"
+      ],
+      "outcome": "Decisive Israeli victory in 6 days \u2014 captured Sinai, Gaza, West Bank, Golan Heights",
+      "duration_years": 0.02,
+      "key_lessons": [
+        "Preemptive air strike (Operation Focus) destroyed 90% of Egyptian Air Force on the ground in 3 hours \u2014 achieving air supremacy before ground war began",
+        "Initiative and surprise are force multipliers that can overcome 3:1 numerical disadvantage if executed with speed and precision",
+        "Territorial gain created strategic depth for Israel (Sinai buffer) but also created occupation burden that has defined the conflict since",
+        "Egypt's false bravado (closing Straits of Tiran) without military readiness is the canonical example of escalation without capability",
+        "Six-day timeline: psychological shock of speed broke adversary will before attrition could develop"
+      ],
+      "outcome_probability_model": "Preemptive strike achieving air supremacy against numerically superior but unprepared adversary: 80% probability of decisive conventional victory within 2 weeks"
+    },
+    {
+      "name": "Sino-Indian War",
+      "period": "October-November 1962",
+      "parties": [
+        "China (PLA)",
+        "India"
+      ],
+      "outcome": "Chinese military victory \u2014 India lost Aksai Chin; Chinese unilateral ceasefire and withdrawal",
+      "duration_years": 0.08,
+      "key_lessons": [
+        "High-altitude Himalayan terrain decisively favored Chinese forces who had trained at altitude vs. Indian forces rotated from plains",
+        "Nehru's 'Forward Policy' (establishing posts ahead of Chinese lines) was a strategic provocation without military backing \u2014 gap between political posture and military capacity",
+        "Chinese unilateral withdrawal after victory was strategically sophisticated \u2014 retained territory gains, avoided sustained occupation cost",
+        "India's defeat reshaped non-alignment: began rearming with Soviet weapons immediately, ending Gandhian defense ideology",
+        "Psychological humiliation drove India's nuclear weapons program \u2014 the 1962 defeat is directly causal of India's 1974 and 1998 tests"
+      ],
+      "outcome_probability_model": "High-altitude terrain war with one side altitude-acclimated and other side not: 75% probability of acclimated force achieving decisive advantage within 30 days"
+    },
+    {
+      "name": "Chechen Wars",
+      "period": "1994-1996 and 1999-2009",
+      "parties": [
+        "Russia",
+        "Chechen separatists",
+        "Jihadist foreign fighters (2nd war)"
+      ],
+      "outcome": "1st War: Russian defeat \u2014 Khasavyurt Accord, de facto Chechen independence. 2nd War: Russian victory \u2014 Grozny destroyed, Kadyrov installed",
+      "duration_years": 12,
+      "key_lessons": [
+        "1st Chechen War: Russian military shock \u2014 professional army (BTGs) destroyed in Grozny urban warfare; Chechen snipers and RPGs devastated armored columns in narrow streets",
+        "Grozny 1995: Russian 131st Maikop Brigade lost 800+ men and 20 tanks on New Year's assault \u2014 iconic urban warfare failure; armored vehicles cannot maneuver in urban canyon",
+        "2nd War: Russia systematically leveled Grozny (80% destroyed) before urban assault \u2014 destroyed the city to take it; brutal but militarily effective",
+        "Putin's political lesson from 1st war: never negotiate from weakness; from 2nd war: scorched earth removes the urban warfare advantage of the defender",
+        "Kadyrov solution: installing a strongman from the population itself (divide and rule) resolved the conflict politically more than military victory"
+      ],
+      "outcome_probability_model": "Urban warfare in dense city against motivated defender: 80% probability of attacker suffering 5x expected casualties unless city is destroyed first"
+    },
+    {
+      "name": "Syrian Civil War",
+      "period": "2011-present",
+      "parties": [
+        "Assad regime",
+        "Syrian Opposition/FSA",
+        "ISIS/ISIL",
+        "Kurds (SDF/YPG)",
+        "Russia (from 2015)",
+        "Iran/Hezbollah",
+        "Turkey",
+        "United States"
+      ],
+      "outcome": "Assad survival with Russian/Iranian support; ISIS territorial caliphate destroyed 2019; fragmented territorial control persists",
+      "duration_years": 13,
+      "key_lessons": [
+        "Russia's September 2015 intervention saved Assad \u2014 60 aircraft + S-400 + Wagner turned the war in 6 months, proving small well-directed intervention can reverse losing trajectory",
+        "Chemical weapons use (Ghouta 2013, Khan Shaykhun 2017, Douma 2018) crossed Obama's 'red line' with minimal consequence \u2014 precedent for normalized WMD use when great powers disagree on response",
+        "ISIS territorial caliphate (8M people, $1B annual revenue from oil) was destroyed by Kurdish SDF ground forces + US air power \u2014 air power alone cannot defeat territorial insurgency",
+        "Turkey's Euphrates Shield and Olive Branch operations show middle powers can carve autonomous zones inside great power proxy conflicts when great powers disagree",
+        "Syria became the testing ground for Russian military modernization \u2014 every weapon system, doctrine, and tactic was tested in Syria before Ukraine deployment"
+      ],
+      "outcome_probability_model": "Multi-great-power proxy war in middle-income country: 85% probability of decade-long fragmented stalemate with no party achieving stated political objectives"
+    },
+    {
+      "name": "Nagorno-Karabakh War 2020",
+      "period": "September-November 2020",
+      "parties": [
+        "Azerbaijan",
+        "Armenia",
+        "Turkey (drone and advisor support)",
+        "Russia (post-war peacekeepers)"
+      ],
+      "outcome": "Decisive Azerbaijani victory in 44 days \u2014 recovered 5 of 7 occupied districts plus 15% of Nagorno-Karabakh itself",
+      "duration_years": 0.12,
+      "key_lessons": [
+        "Bayraktar TB2 drones destroyed Armenian air defense, artillery, and armored columns with impunity \u2014 the first documented case of cheap drones (TB2 at $5M vs. Tor-M2 SAM at $25M) systematically defeating Soviet-era air defense",
+        "Soviet-doctrine armies (static defense, mass artillery, fixed AA batteries) are decisively vulnerable to drone swarm tactics \u2014 fundamentally obsoleted the Soviet military inheritance",
+        "Armenian forces had no effective counter-drone capability \u2014 EW jamming, small-caliber air defense, and tactical dispersion are now existential requirements",
+        "44-day timeline: speed prevented international intervention that would have frozen the conflict again \u2014 speed as political instrument to preempt diplomacy",
+        "Demographic economics: Azerbaijan (10M, oil-rich) vs. Armenia (3M, poor) \u2014 economic sustainability of frozen conflicts shifts when one party becomes richer"
+      ],
+      "outcome_probability_model": "Modern drone-enabled force vs. Soviet-doctrine army with no counter-drone capability: 85% probability of decisive drone operator victory within 60 days"
+    },
+    {
+      "name": "Libya Civil War",
+      "period": "2011 and 2014-2020",
+      "parties": [
+        "NATO coalition",
+        "Gaddafi regime (2011)",
+        "GNA (UN-recognized)",
+        "LNA Haftar (UAE/Russia/Egypt backed)",
+        "Turkey (GNA support from 2019)",
+        "Wagner Group (LNA support)"
+      ],
+      "outcome": "2011: NATO air campaign destroyed Gaddafi regime in 7 months \u2014 state collapse followed. 2014-2020: Stalemate, fragmented territorial control, UN arms embargo violated by all parties",
+      "duration_years": 10,
+      "key_lessons": [
+        "2011: Responsibility to Protect (R2P) doctrine used to justify regime change beyond civilian protection \u2014 Russia and China learned the lesson and began systematically vetoing similar interventions",
+        "State collapse post-Gaddafi created worst humanitarian outcome: slave markets (2017), $100B+ of looted weaponry flooding Sahel, 750,000+ migrants to Europe \u2014 removing a dictator without state replacement is catastrophically costly",
+        "2019-2020: Turkey's deployment of Bayraktar TB2s and Syrian mercenaries stopped Haftar's Tripoli offensive \u2014 demonstrated middle power can reverse a great-power-backed proxy campaign with the right technology package",
+        "Wagner Group's Libya operation: Russia monetized military intervention \u2014 Wagner paid by UAE/Egypt while Russia gained Mediterranean port access (Tobruk) and influence at zero official cost",
+        "Multiple simultaneous foreign interventions (UAE, Turkey, Russia, Egypt, Italy, France \u2014 on different sides) created a permanent impasse: no party had enough leverage to force resolution"
+      ],
+      "outcome_probability_model": "External intervention to remove dictator without state-building plan: 90% probability of civil war and worse humanitarian outcomes within 5 years"
+    },
+    {
+      "name": "Sahel Conflict and Great Power Competition in Africa",
+      "period": "2012-present",
+      "parties": [
+        "France/ECOWAS (counterterrorism)",
+        "Mali/Burkina Faso/Niger juntas",
+        "JNIM/Al-Qaeda Sahel",
+        "ISIS Greater Sahara",
+        "Wagner Group/Russia (from 2021)",
+        "China (infrastructure presence)"
+      ],
+      "outcome": "France expelled from Mali (2022), Burkina Faso (2023), Niger (2023); Wagner replaced French forces; jihadist territory expanding despite Western intervention",
+      "duration_years": 12,
+      "key_lessons": [
+        "Operation Barkhane (5,000 French troops, 10 years, $2B/year) failed to defeat jihadists because it lacked local political legitimacy \u2014 military intervention without local ownership is not sustainable",
+        "Wagner's entry pitch: 'We will protect you from internal coups as well as jihadists' \u2014 providing regime security, not just border security, is what African juntas actually want",
+        "Russia-via-Wagner displaced France at zero cost: $200M/year Wagner contract vs. $2B/year French operation, and Russia gained diplomatic influence, mining concessions, and anti-Western narrative wins",
+        "The coup belt (Mali 2021, Guinea 2021, Burkina Faso 2022, Niger 2023) shows governance failure, not just security failure \u2014 counterterrorism without development accelerates state collapse",
+        "China's infrastructure (roads, mines, fiber optic) without explicit security relationships is being outcompeted by Russia's security relationships without infrastructure \u2014 neither is sufficient alone"
+      ],
+      "outcome_probability_model": "Counterterrorism intervention without local governance improvement: 80% probability of failure to reduce jihadist territory within 10 years; 60% probability of host-government coup and intervention expulsion"
+    },
+    {
+      "name": "Bangladesh Liberation War",
+      "period": "March-December 1971",
+      "parties": [
+        "India",
+        "Bangladesh (East Pakistan)",
+        "Pakistan",
+        "United States (7th Fleet deployment)",
+        "Soviet Union (deterred US)"
+      ],
+      "outcome": "Pakistan military surrender December 16, 1971 \u2014 Bangladesh independence; 93,000 Pakistani POWs",
+      "duration_years": 0.75,
+      "key_lessons": [
+        "India's decisive 13-day war (December 3-16, 1971) succeeded by simultaneous East and West Pakistan offensives \u2014 two-front pressure collapsed Pakistani military cohesion",
+        "US 7th Fleet deployment (Nixon-Kissinger attempt to intimidate India) deterred by Soviet submarine deployment to Indian Ocean \u2014 nuclear signaling by great power patron neutralized adversary intervention",
+        "Pakistani military atrocities in East Pakistan (Operation Searchlight, 300,000-3M killed) alienated the local population \u2014 military force against one's own population creates insurgency, not compliance",
+        "India's strategic timing: waited for monsoon season to end (trafficable terrain), Bangladesh Mukti Bahini guerrillas to exhaust Pakistani forces, and winter to prevent Chinese intervention through Himalayan passes",
+        "Bangladeshi independence demonstrated: ethnolinguistic nationalism (Bengali vs. Urdu imposition) is more powerful than religious solidarity (Muslim Pakistan narrative failed)"
+      ],
+      "outcome_probability_model": "Military force used against own ethnic population during independence movement with neighboring state patron: 75% probability of military defeat and independence within 5 years"
+    }
+  ],
+  "patterns": [
+    {
+      "name": "Imperial Overstretch",
+      "description": "When a great power's military commitments exceed its economic capacity to sustain them, strategic decline becomes structurally inevitable. The pattern repeats consistently across civilizational scale.",
+      "indicators": [
+        "Defense spending exceeds 8-10% of GDP while fighting across multiple theaters simultaneously",
+        "War financing shifts from taxation to deficit spending and money printing",
+        "Reserve currency weaponized, accelerating alternatives",
+        "Military commitments maintained by financial engineering rather than real production"
+      ],
+      "historical_examples": [
+        "Rome: Diocletian's military expansion (3rd century) funded by currency debasement \u2192 hyperinflation, collapse",
+        "Habsburg Spain: Silver from Americas funded military overcommitment \u2192 1648 Peace of Westphalia retrenchment",
+        "British Empire: WWI debt to US shifted financial hegemony; WWII completed the transfer",
+        "Soviet Union: Afghan War + arms race + 15% GDP military spending \u2192 1991 dissolution",
+        "United States: 2001-present \u2014 $8T war spending on two failed campaigns, $34T national debt"
+      ],
+      "trigger_threshold": "Overstretch becomes structurally irreversible when interest on war debt + military spending exceeds 20% of federal revenue",
+      "outcome_probability": "80% probability of strategic retrenchment within 20 years of overstretch onset; 40% probability of accelerated hegemony collapse"
+    },
+    {
+      "name": "Financialization Trap",
+      "description": "When an economy's FIRE sector exceeds 40% of GDP, it loses the manufacturing base needed to mobilize for sustained conventional war. The economy optimizes for financial returns, not physical production.",
+      "indicators": [
+        "FIRE sector exceeds 40% of GDP",
+        "Manufacturing below 15% of GDP",
+        "Defense supply chains offshore-dependent",
+        "Ammunition production capacity insufficient for peer-war consumption rates"
+      ],
+      "historical_examples": [
+        "Late Roman Empire: Monetization replaced citizen soldiers with mercenaries \u2014 when money ran out, army dissolved",
+        "Britain 1930s: City of London financialization meant UK could not rearm fast enough for WWII without US Lend-Lease",
+        "US 2022: Could not produce 155mm shells at required rates; contracted Korean producers \u2014 hollow industrial base revealed",
+        "Russia outproduced NATO in shell production 3:1 within 18 months of mobilization"
+      ],
+      "outcome_probability": "Financialized economy (FIRE > 40%) facing industrial war adversary (manufacturing > 25%): 65% probability of losing production race within 36 months of full mobilization"
+    },
+    {
+      "name": "Elite Overproduction",
+      "description": "When a society produces more educated credential-holders than available elite positions, the surplus become a counter-elite that challenges the existing order \u2014 a reliable structural predictor of instability within 10-20 years.",
+      "indicators": [
+        "Credential inflation: degree holders exceed available high-status positions",
+        "Declining real wages for college graduates despite rising credential cost",
+        "Rise of populist movements led by frustrated elite-adjacent individuals",
+        "Internal political violence or attempted coups"
+      ],
+      "historical_examples": [
+        "France 1780s: Surplus lawyers and notaries unable to find status positions became the revolutionary leadership",
+        "England 1640s: Surplus Puritan gentry with no court positions became Parliamentary faction \u2014 Civil War",
+        "Arab Spring 2011: University-educated unemployed youth in Egypt, Tunisia, Libya \u2014 youth unemployment 30%+"
+      ],
+      "outcome_probability": "Elite overproduction + fiscal crisis simultaneously: 70% probability of significant political disruption within 15 years"
+    },
+    {
+      "name": "Insurgency Base Rate",
+      "description": "Statistical pattern from 89 post-WWII insurgency outcomes: foreign occupiers achieve objectives approximately 40% of the time. Five conditions predictably shift this rate.",
+      "base_rate": "40% insurgent victory",
+      "conditions_increasing_insurgent_victory_probability": [
+        "External state sponsor providing funding, weapons, and sanctuary \u2014 adds ~15 percentage points",
+        "Terrain favoring guerrilla operations \u2014 adds ~10 percentage points",
+        "Conflict duration exceeds 5 years \u2014 adds ~15 percentage points",
+        "Occupier lacks local political legitimacy \u2014 adds ~10 percentage points",
+        "No viable political settlement offered \u2014 adds ~10 percentage points"
+      ],
+      "outcome_probability": "Base rate 40% insurgent victory. With all 5 conditions: 75-80% probability of occupier withdrawal within 10 years"
+    },
+    {
+      "name": "Nuclear Deterrence Stability-Instability Paradox",
+      "description": "Nuclear-armed states almost never fight directly. However, strategic-level nuclear deterrence creates instability at the conventional level \u2014 each side probes conventional thresholds knowing the adversary also fears escalation.",
+      "effects": [
+        "Direct great power conflict probability: below 3% per year when both have second-strike capability",
+        "Proxy war probability increases \u2014 both sides fight through proxies",
+        "Conventional war cost elevated by nuclear backstop",
+        "Threshold ambiguity deliberately cultivated"
+      ],
+      "historical_examples": [
+        "US-USSR: 43 years, zero direct combat; proxy wars on every continent",
+        "India-Pakistan: Nuclear peace at strategic level; Kargil conventional war 1999 at tactical level",
+        "China-Taiwan: PRC deterred from invasion by US nuclear umbrella; uses gray-zone pressure instead"
+      ],
+      "outcome_probability": "Nuclear states in direct conventional conflict: 4-6% probability of nuclear use per year below existential threshold"
+    },
+    {
+      "name": "Proxy War Economics",
+      "description": "Funding a proxy force is 10-100x cheaper than fighting directly. This asymmetry allows states to impose enormous costs on adversaries while avoiding direct engagement.",
+      "cost_ratios": [
+        "CIA Operation Cyclone: $4B total; Soviet direct cost ~$50B = 12.5:1 leverage",
+        "US Ukraine support (~$100B) vs. Russian direct military cost (~$300B) = 3:1 leverage",
+        "Iran Axis of Resistance (~$2B/year) vs. Israeli response cost (>$20B/year) = 10:1 leverage"
+      ],
+      "conditions_for_success": [
+        "Proxy has genuine popular support and indigenous will to fight",
+        "External sponsor has sustained political will across multiple government cycles",
+        "Geographic sanctuary states available for resupply and training"
+      ],
+      "outcome_probability": "Well-funded proxy with genuine local support vs. direct occupier: 55% probability proxy achieves political objectives within 10 years"
+    },
+    {
+      "name": "Maritime Chokepoint Control",
+      "description": "Control of key maritime straits provides decisive leverage over global trade, energy supply, and naval force projection.",
+      "key_chokepoints": {
+        "Strait of Hormuz": "20-21% of global oil supply; Iran geography control; closure spikes oil 50%+ within 72 hours",
+        "Strait of Malacca": "80% of China's oil imports; US Navy overwatch; closure is China's existential vulnerability",
+        "Bosphorus/Dardanelles": "Turkey controls under Montreux Convention; denied Russian warships access 2022",
+        "Taiwan Strait": "48% of global container traffic; contested US-China domain",
+        "Suez Canal": "12-15% of global trade; Egyptian control; closure forces 9,000-mile diversion",
+        "GIUK Gap": "Controls Atlantic submarine routes; NATO's critical ASW chokepoint for Russian submarine fleet"
+      },
+      "outcome_probability": "Hormuz closure by Iran: 90% probability of global recession within 6 months. Malacca closure: 75% probability of forcing China to de-escalate within 12 months"
+    },
+    {
+      "name": "Demographic Decline and Military Power",
+      "description": "Aging populations reduce military manpower pools, increase per-soldier costs, and create political pressure against high-casualty conflicts. An irreversible long-term structural constraint.",
+      "critical_thresholds": [
+        "TFR below 2.1: military-age cohort begins shrinking within 20 years",
+        "Median age above 40: population becomes casualty-averse",
+        "Military-age population (18-35) below 12% of total: professional army becomes prohibitively expensive"
+      ],
+      "historical_examples": [
+        "Rome's manpower decline forced barbarian mercenary recruitment (foederati) \u2014 barbarians eventually took the state",
+        "Russia: 143M population, TFR 1.5, losing 30,000+ KIA quarterly in Ukraine \u2014 demographic math limits capacity by 2030",
+        "South Korea: TFR 0.72 (2023) \u2014 military-age population will fall 40% by 2040"
+      ],
+      "outcome_probability": "Nation with TFR below 1.5 sustaining 20+ year major conventional war without mass immigration or autonomous weapons: below 20% probability"
+    },
+    {
+      "name": "Resource Curse and War Sustainability",
+      "description": "States whose revenue derives primarily from natural resource extraction develop structural weaknesses in war-fighting capacity: economic monoculture, poor governance, and revenue volatility.",
+      "indicators": [
+        "Single commodity exceeds 60% of export revenue",
+        "Manufacturing sector underdeveloped relative to resource wealth",
+        "Rentier state dynamic: government buys social peace with resource revenue",
+        "No tax base independent of resources \u2014 makes sanctions highly effective if resources can be embargoed"
+      ],
+      "outcome_probability": "Petro-state facing oil embargo sustained 18+ months: 75% probability of significant military capability degradation; 40% probability of political instability"
+    },
+    {
+      "name": "Drone Revolution and Warfare Cost Democratization",
+      "description": "Cheap unmanned systems (sub-$500K) have fundamentally changed the cost calculus of warfare, allowing smaller states and non-state actors to contest air superiority and strike at distances previously requiring air forces.",
+      "key_developments": [
+        "Bayraktar TB2 ($5M) vs. Tor-M2 SAM ($25M): cheap drone defeats expensive air defense \u2014 Nagorno-Karabakh 2020 proved this at scale",
+        "Shahed-136 ($20,000 kamikaze) vs. Patriot missile ($4M intercept): 200:1 cost asymmetry favors attacker permanently",
+        "FPV (First-Person View) racing drones ($500) modified with RPG warheads destroying $2M armored vehicles in Ukraine \u2014 the final democratization of precision strike",
+        "Counter-drone market created: SHORAD (Short Range Air Defense) now highest-priority NATO procurement \u2014 reactive investment always lags the threat",
+        "Electronic warfare jamming vs. AI-autonomous navigation: arms race at drone level mirrors nuclear arms race at strategic level"
+      ],
+      "implications_for_conflict": [
+        "Air defense systems designed for manned aircraft are ineffective against drone swarms \u2014 the Soviet air defense inheritance is obsolete",
+        "Every nation can now afford precision strike capability \u2014 previous monopoly of US/Russia/China/Israel broken",
+        "Non-state actors (Houthis, Hezbollah) can now conduct strategic strikes against naval vessels and critical infrastructure",
+        "Attrition economics have shifted: the drone-producing side wins the war of numbers \u2014 Iran/Russia drone production at scale vs. NATO Stinger/Patriot depletion"
+      ],
+      "outcome_probability": "Force with advanced drone capability and no effective counter-drone doctrine vs. Soviet-era air defense: 80% probability of air defense neutralization within 30 days, enabling ground maneuver freedom"
+    },
+    {
+      "name": "Gray Zone Warfare",
+      "description": "Military and para-military activities below the threshold of armed conflict \u2014 designed to achieve strategic objectives while avoiding triggering NATO Article 5 or equivalent collective defense mechanisms.",
+      "instruments": [
+        "Cyberattacks on critical infrastructure: Estonia 2007, Ukraine power grid 2015-2016, SolarWinds 2020",
+        "Disinformation campaigns: Internet Research Agency (Russia), Sharp Power (China influence operations)",
+        "Economic coercion: rare earth export cutoffs, grain weaponization, debt trap infrastructure",
+        "Paramilitary forces with plausible deniability: Little Green Men (Crimea 2014), Wagner Group, Iranian IRGC-QF proxies",
+        "Maritime gray zone: Chinese Coast Guard vs. Philippine fishing vessels, underwater cable cutting",
+        "Election interference: documented in US 2016, France 2017, Germany 2017, Brazil 2022"
+      ],
+      "why_it_works": [
+        "Collective defense mechanisms (Article 5) require attribution and consensus \u2014 gray zone deliberately maintains ambiguity on both",
+        "Democratic response lag: free press, judicial review, and electoral cycles slow decision-making vs. authoritarian directness",
+        "Each individual action is below the threshold that justifies military response \u2014 cumulative strategic gain through individual tactical ambiguity"
+      ],
+      "outcome_probability": "Gray zone campaign against democracy without clear response doctrine: 65% probability of achieving incremental strategic objective (territory, influence, infrastructure access) within 5 years without triggering conventional military response"
+    },
+    {
+      "name": "Alliance Credibility and Extended Deterrence",
+      "description": "Deterrence of attacks on allies (extended deterrence) requires that the adversary believes the patron will actually fight for the ally \u2014 a credibility problem that is harder to solve than direct deterrence.",
+      "credibility_factors": [
+        "Tripwire forces: 28,500 US troops in South Korea and 54,000 in Japan are human hostages ensuring US automatic entry",
+        "Nuclear sharing arrangements: US B61 bombs in Germany, Italy, Turkey, Netherlands, Belgium \u2014 host nations' aircraft deliver, US retains custody",
+        "Article 5 language: 'will take such action as it deems necessary' \u2014 NOT an automatic war guarantee (unlike Article 6 of NATO founding treaty)",
+        "Taiwan Relations Act: US obligated to provide defensive arms but no explicit defense commitment \u2014 strategic ambiguity as deterrence"
+      ],
+      "historical_failures": [
+        "1914: Germany did not believe Britain would fight for Belgium \u2014 credibility failure triggered World War I",
+        "1950: Secretary Acheson's speech excluded South Korea from US defense perimeter \u2014 signaled to North Korea that invasion was safe",
+        "1991: Ambassador Glaspie told Saddam US had 'no opinion on Arab-Arab conflicts' regarding Kuwait \u2014 arguably a green light",
+        "2022: NATO's explicit exclusion of Ukraine from membership and military intervention arguably reduced deterrence of Russian invasion"
+      ],
+      "outcome_probability": "Alliance commitment perceived as non-credible by adversary: 60% probability of adversary testing the commitment with military action within 5 years"
+    },
+    {
+      "name": "Strategic Surprise: Conditions for Successful Preemption",
+      "description": "Historically, strategic surprise is achievable but rarely decisive for the attacker unless it eliminates a critical capability within the first 24-72 hours that cannot be reconstituted.",
+      "conditions_for_preemption_success": [
+        "Target capability is concentrated and immobile: Israeli air strike on Iraqi Osirak reactor (1981), Operation Focus vs Egyptian Air Force (1967)",
+        "Target has poor early warning (human intelligence or signals failure)",
+        "Attacker executes deception operation that creates false picture of normal activity",
+        "Political decision cycle of target is slower than attacker's strike speed"
+      ],
+      "conditions_for_preemption_failure": [
+        "Target has survivable second-strike: nuclear triads make first strike suicidal",
+        "Target has distributed/hardened assets: underground Iran nuclear facilities at Fordow",
+        "Preemption unites target population: Pearl Harbor rallied US; Yom Kippur created Israeli national unity",
+        "Regional/global coalition formation against aggressor: first mover pays coalition-formation cost"
+      ],
+      "historical_examples": [
+        "Operation Focus 1967: Israel destroyed 90% of Egyptian/Syrian/Jordanian air forces on ground in 3 hours \u2014 preemption decisive",
+        "Pearl Harbor 1941: Destroyed Pacific Fleet surface ships but missed carriers (at sea) and fuel storage \u2014 preemption incomplete, rallied adversary",
+        "Osirak 1981: Israeli F-16s destroyed Iraqi nuclear reactor \u2014 delayed Iraqi program 10 years",
+        "Russian invasion of Ukraine 2022: failed preemption \u2014 did not destroy Ukrainian command and control in first 24 hours, Zelensky stayed in Kyiv, resistance organized"
+      ],
+      "outcome_probability": "Preemptive air strike against concentrated, non-nuclear, non-hardened target: 75% probability of achieving primary objective. Against dispersed or hardened target: below 30%"
+    },
+    {
+      "name": "Economic Interdependence as Deterrent",
+      "description": "High levels of bilateral trade create mutual economic hostage situations that raise the cost of war \u2014 but the deterrent effect breaks down when one party is willing to absorb economic pain for strategic gain.",
+      "evidence_for_deterrence": [
+        "US-China trade ($750B/year bilateral): decoupling would cost both economies 1-2% GDP annually for a decade",
+        "EU-Russia energy dependency pre-2022: Germany paid $80B/year for Russian gas \u2014 economic cost of sanctions deterred action for 8 years after 2014 Crimea annexation",
+        "Taiwan's TSMC: produces 90%+ of world's most advanced chips \u2014 attacking Taiwan would trigger semiconductor famine costing global economy $1T+"
+      ],
+      "evidence_against_deterrence": [
+        "Russia invaded Ukraine despite $800B+ in EU-Russia trade at stake \u2014 political and strategic calculation overrode economic rationality",
+        "Japan went to war with US in 1941 despite 80% of oil dependency on US \u2014 strategic humiliation (embargo) triggered despite economic logic against war",
+        "China-India border clashes despite $135B/year bilateral trade \u2014 strategic competition in Himalayan territory overrode economic interdependence"
+      ],
+      "outcome_probability": "High bilateral trade ($100B+ annually) between major powers: reduces probability of direct military conflict by approximately 40%; does NOT reduce it to zero; fails entirely when one party faces existential threat or strategic humiliation framing"
+    },
+    {
+      "name": "Information Warfare and Narrative Control",
+      "description": "Control of the narrative about a conflict \u2014 its causes, conduct, and consequences \u2014 has become a distinct military domain that shapes alliance formation, economic sanctions, and domestic political will.",
+      "instruments": [
+        "RT (Russia Today) and CGTN (China Global Television Network): state media reaching 700M+ weekly globally",
+        "Social media manipulation: bots, troll farms (Internet Research Agency had 1,000 full-time employees for 2016 US election)",
+        "Deepfake videos and AI-generated content: collapsing cost of synthetic media to near-zero",
+        "Diplomatic narrative: UNSC veto as narrative tool (China/Russia vetoed 17 Syria resolutions 2011-2022)",
+        "Kinetic information operation: assassination of journalists, cyberattack on media infrastructure"
+      ],
+      "strategic_effects": [
+        "Domestic political will: narrative loss at home triggers democratic withdrawal (Vietnam Syndrome, Cronkite Effect)",
+        "Alliance cohesion: narrative divergence between allies (Turkey vs. US on Kurdish SDF in Syria) creates exploitable friction",
+        "Sanctions legitimacy: Global South absorbed Russian 'Ukraine as NATO provocation' narrative \u2014 limits Western coalition breadth",
+        "Recruitment: ISIS used social media for unprecedented transnational foreign fighter recruitment (40,000 from 110 countries 2014-2017)"
+      ],
+      "outcome_probability": "State with dominant information operation vs. state with weak counter-narrative: 55% probability of successfully fracturing adversary's domestic political coalition within 2 years of sustained campaign"
+    },
+    {
+      "name": "Civil-Military Relations and Coup Risk",
+      "description": "The relationship between civilian government and military institutions is a decisive variable in whether a state can sustain a war, execute a strategy, or maintain political stability under military stress.",
+      "high_coup_risk_indicators": [
+        "Military controls significant portion of the formal economy (Egypt: 40%, Pakistan: 20%+, Thailand: 15%)",
+        "Recent history of successful military intervention in politics (coup within last 30 years)",
+        "Economic crisis coinciding with military grievance (pay cuts, corruption exposure)",
+        "Civilian government openly investigating or prosecuting military leadership",
+        "Military loses a war for which it blames civilian leadership"
+      ],
+      "low_coup_risk_indicators": [
+        "Military culture of civilian supremacy institutionalized (US, UK, Germany)",
+        "Strong judicial and parliamentary oversight of defense spending",
+        "All-volunteer professional military with career incentives aligned to institutional rather than political success",
+        "NATO or similar alliance membership creates external accountability"
+      ],
+      "historical_examples": [
+        "Pakistan: 4 coups (1958, 1969, 1977, 1999); army has ruled 33 of 76 years since independence",
+        "Egypt: 1952 revolution, 1967 failure blamed on civilians, 2013 Sisi coup \u2014 military has never fully left politics",
+        "Turkey: 4 coups (1960, 1971, 1980, 1997 soft coup); Erdogan's 2016 purge of 150 generals after failed coup attempt",
+        "Latin America: 55 successful coups 1950-2000; Argentina, Brazil, Chile all experienced military dictatorship"
+      ],
+      "outcome_probability": "State with military controlling >20% of formal economy and recent coup history, facing severe fiscal crisis: 45% probability of military intervention in political process within 10 years"
+    },
+    {
+      "name": "Water Wars and Resource Conflict Escalation",
+      "description": "Freshwater scarcity is becoming a primary driver of interstate and intrastate conflict, particularly in the Middle East, North Africa, and South Asia where demand is outpacing supply.",
+      "critical_flashpoints": {
+        "Nile River": "Ethiopia's GERD dam vs. Egypt's 97% Nile freshwater dependency \u2014 105M Egyptians face existential threat if dam filling reduces flow",
+        "Indus River System": "India-Pakistan Indus Waters Treaty (1960) \u2014 India controls headwaters; Pakistan agricultural water 80% Indus dependent; treaty under stress",
+        "Jordan River": "Israel, Jordan, Palestinian territories, Lebanon \u2014 over-extraction; Dead Sea shrinking 1 meter/year; aquifer depletion accelerating",
+        "Tigris-Euphrates": "Turkey's GAP dams reduced Euphrates flow by 50% reaching Iraq/Syria \u2014 Iraq called it 'war by water'",
+        "Mekong River": "China's 11 upstream dams reduced dry-season flow to Thailand, Laos, Cambodia, Vietnam by 30%"
+      },
+      "escalation_logic": [
+        "Water scarcity reduces agricultural yields \u2192 food price spikes \u2192 urban protests \u2192 government instability \u2192 conflict",
+        "No international water law equivalent to UNCLOS for maritime disputes \u2014 legal framework is weak",
+        "Climate change accelerates: Himalayan glaciers (freshwater source for 2B+ people) shrinking at 65% faster rate since 2010"
+      ],
+      "outcome_probability": "State where >80% of freshwater is controlled by upstream adversary and domestic groundwater is depleting: 50% probability of significant interstate conflict over water within 30 years; 80% probability of internal political crisis within 15 years"
+    }
+  ],
+  "demographics": [
+    {
+      "country": "United States",
+      "population_millions": 335,
+      "median_age": 38.9,
+      "tfr": 1.62,
+      "military_age_pct": 13.2,
+      "urban_pct": 83,
+      "gdp_per_capita_usd": 80000,
+      "youth_unemployment_pct": 8.1,
+      "notes": "High income, aging slowly. Democratic political constraint on casualties is high. Volunteer military creates quality force but limits mass mobilization."
+    },
+    {
+      "country": "Russia",
+      "population_millions": 143,
+      "median_age": 40.3,
+      "tfr": 1.5,
+      "military_age_pct": 12.1,
+      "urban_pct": 75,
+      "gdp_per_capita_usd": 14000,
+      "youth_unemployment_pct": 14.2,
+      "notes": "Shrinking population; losing 30,000+ young men quarterly in Ukraine. TFR 1.5 means military-age cohort shrinks 15% by 2035. Conscription maintains mass but quality degraded."
+    },
+    {
+      "country": "China",
+      "population_millions": 1412,
+      "median_age": 39.0,
+      "tfr": 1.09,
+      "military_age_pct": 11.8,
+      "urban_pct": 65,
+      "gdp_per_capita_usd": 12540,
+      "youth_unemployment_pct": 21.3,
+      "notes": "One-child policy legacy: TFR 1.09, aging rapidly. Military-age cohort shrinks significantly by 2040. High youth unemployment creates political pressure but also recruitment pool."
+    },
+    {
+      "country": "Iran",
+      "population_millions": 87,
+      "median_age": 32.4,
+      "tfr": 1.71,
+      "military_age_pct": 15.3,
+      "urban_pct": 77,
+      "gdp_per_capita_usd": 4240,
+      "youth_unemployment_pct": 27.2,
+      "notes": "Young population with high youth unemployment creates large recruitment pool for IRGC and Basij. Proxy forces extend reach beyond domestic manpower."
+    },
+    {
+      "country": "Israel",
+      "population_millions": 9.5,
+      "median_age": 30.5,
+      "tfr": 2.9,
+      "military_age_pct": 16.1,
+      "urban_pct": 93,
+      "gdp_per_capita_usd": 55000,
+      "youth_unemployment_pct": 5.8,
+      "notes": "Unique: high TFR (2.9) among developed nations due to ultra-Orthodox and settler communities. Universal conscription with reserve system. Small absolute manpower pool (9.5M) limits multi-front sustained war capacity."
+    },
+    {
+      "country": "Saudi Arabia",
+      "population_millions": 36,
+      "median_age": 29.9,
+      "tfr": 2.29,
+      "military_age_pct": 16.8,
+      "urban_pct": 85,
+      "gdp_per_capita_usd": 29000,
+      "youth_unemployment_pct": 15.4,
+      "notes": "Young population but rentier state dynamics \u2014 citizens expect public sector employment, not military service. Actual military relies heavily on foreign nationals and mercenaries."
+    },
+    {
+      "country": "Turkey",
+      "population_millions": 85,
+      "median_age": 32.7,
+      "tfr": 1.9,
+      "military_age_pct": 15.7,
+      "urban_pct": 77,
+      "gdp_per_capita_usd": 13000,
+      "youth_unemployment_pct": 17.8,
+      "notes": "Young population with strong military culture and conscription tradition. Kurdish PKK conflict has produced battle-hardened special forces. High youth unemployment creates recruitment pool."
+    },
+    {
+      "country": "India",
+      "population_millions": 1430,
+      "median_age": 28.7,
+      "tfr": 2.01,
+      "military_age_pct": 17.3,
+      "urban_pct": 36,
+      "gdp_per_capita_usd": 2500,
+      "youth_unemployment_pct": 16.5,
+      "notes": "Demographic dividend: young, growing population provides 20-30 year manpower advantage over aging China and Russia. Professional all-volunteer military. 1.4B population means 1% mobilization = 14M soldiers."
+    },
+    {
+      "country": "North Korea",
+      "population_millions": 25.9,
+      "median_age": 34.6,
+      "tfr": 1.91,
+      "military_age_pct": 14.2,
+      "urban_pct": 63,
+      "gdp_per_capita_usd": 1800,
+      "youth_unemployment_pct": 26.0,
+      "notes": "Military-first (Songun) state: 5-6% of population in active military \u2014 world's highest per-capita rate. Chronic malnutrition has reduced average soldier height and physical capacity."
+    },
+    {
+      "country": "Ukraine",
+      "population_millions": 36,
+      "median_age": 41.4,
+      "tfr": 1.16,
+      "military_age_pct": 11.0,
+      "urban_pct": 70,
+      "gdp_per_capita_usd": 3900,
+      "youth_unemployment_pct": 18.0,
+      "notes": "Severe demographic constraint: TFR 1.16 (lowest in Europe), 6-8M displaced abroad. Military-age male population depleting under attritional war. Manpower constraint is decisive limiting factor by 2025-2026."
+    },
+    {
+      "country": "Pakistan",
+      "population_millions": 231,
+      "median_age": 22.8,
+      "tfr": 3.4,
+      "military_age_pct": 19.8,
+      "urban_pct": 37,
+      "gdp_per_capita_usd": 1600,
+      "youth_unemployment_pct": 31.0,
+      "notes": "Young, fast-growing population (TFR 3.4). High youth unemployment (31%) creates radicalization and military recruitment pool. At current TFR, population doubles by 2050 \u2014 resource constraint looms."
+    },
+    {
+      "country": "United Kingdom",
+      "population_millions": 68,
+      "median_age": 40.7,
+      "tfr": 1.56,
+      "military_age_pct": 12.3,
+      "urban_pct": 84,
+      "gdp_per_capita_usd": 47000,
+      "youth_unemployment_pct": 11.2,
+      "notes": "Post-imperial professional military. Aging population with high casualty sensitivity. Small professional armed forces (145,000 active). AUKUS and Five Eyes preserve strategic reach beyond size."
+    },
+    {
+      "country": "Germany",
+      "population_millions": 84,
+      "median_age": 45.7,
+      "tfr": 1.46,
+      "military_age_pct": 11.5,
+      "urban_pct": 78,
+      "gdp_per_capita_usd": 48000,
+      "youth_unemployment_pct": 5.9,
+      "notes": "Europe's oldest major population (median age 45.7). Post-WWII pacifist culture creates political constraint on rearmament \u2014 Zeitenwende is historic break. TFR 1.46 means Bundeswehr manpower pool is structurally declining."
+    },
+    {
+      "country": "France",
+      "population_millions": 68,
+      "median_age": 42.3,
+      "tfr": 1.68,
+      "military_age_pct": 12.8,
+      "urban_pct": 81,
+      "gdp_per_capita_usd": 43000,
+      "youth_unemployment_pct": 17.0,
+      "notes": "Relatively high TFR for Europe (1.68 \u2014 highest in EU). Large Muslim minority (8-10% of population) creates complex dynamics around Middle East military operations. Professional military with combat experience across Africa and Middle East."
+    },
+    {
+      "country": "Japan",
+      "population_millions": 125,
+      "median_age": 48.7,
+      "tfr": 1.2,
+      "military_age_pct": 10.2,
+      "urban_pct": 92,
+      "gdp_per_capita_usd": 33000,
+      "youth_unemployment_pct": 4.6,
+      "notes": "World's most aged major population (median age 48.7). TFR 1.2 means military-age cohort shrinking rapidly \u2014 JSDF already having recruitment shortfalls. Automation and drone focus are demographic-driven necessity. Low youth unemployment reflects small youth cohort, not prosperity."
+    },
+    {
+      "country": "South Korea",
+      "population_millions": 51,
+      "median_age": 44.0,
+      "tfr": 0.72,
+      "military_age_pct": 11.8,
+      "urban_pct": 81,
+      "gdp_per_capita_usd": 32000,
+      "youth_unemployment_pct": 6.4,
+      "notes": "World's lowest TFR (0.72 in 2023) \u2014 a demographic emergency. Military-age population will fall 40% by 2040. Near-term rearmament and conscript system must compensate before the cliff arrives. North Korea demographic advantage (higher TFR, younger population) widens over time."
+    },
+    {
+      "country": "United Arab Emirates",
+      "population_millions": 9.5,
+      "median_age": 38.2,
+      "tfr": 1.44,
+      "military_age_pct": 14.0,
+      "urban_pct": 87,
+      "gdp_per_capita_usd": 49000,
+      "youth_unemployment_pct": 12.0,
+      "notes": "Only 1M citizens out of 9.5M total \u2014 88% expatriates. Military can only draw from citizen pool: actual military-age citizen count is ~180,000. Entirely dependent on technological and financial capability rather than manpower. Expat workforce is strategically vulnerable (can be expelled or leave in a crisis)."
+    },
+    {
+      "country": "Egypt",
+      "population_millions": 105,
+      "median_age": 24.6,
+      "tfr": 3.3,
+      "military_age_pct": 20.1,
+      "urban_pct": 43,
+      "gdp_per_capita_usd": 4400,
+      "youth_unemployment_pct": 32.0,
+      "notes": "Young, rapidly growing population (adding ~2M/year) creating enormous pressure on food, water, and jobs. Nile provides 97% of freshwater \u2014 water security is existential, not economic. Military (SCAF) controls 40% of formal economy and is the dominant political institution."
+    },
+    {
+      "country": "Brazil",
+      "population_millions": 215,
+      "median_age": 34.0,
+      "tfr": 1.65,
+      "military_age_pct": 14.8,
+      "urban_pct": 88,
+      "gdp_per_capita_usd": 9600,
+      "youth_unemployment_pct": 19.8,
+      "notes": "Large, urbanized, middle-income population. High youth unemployment drives favela-based gang warfare that consumes military capacity internally. No external military threat. Amazon border (8.5M km\u00b2) is a military mission requiring surveillance over territory the size of the continental US."
+    },
+    {
+      "country": "Ethiopia",
+      "population_millions": 125,
+      "median_age": 19.5,
+      "tfr": 4.1,
+      "military_age_pct": 22.3,
+      "urban_pct": 23,
+      "gdp_per_capita_usd": 1000,
+      "youth_unemployment_pct": 25.0,
+      "notes": "One of the world's youngest populations (median age 19.5, TFR 4.1) \u2014 enormous military manpower pool but lacking equipment, logistics, and training to deploy it. Tigray War (2020-2022) showed both the mobilization capacity (500,000+ combatants) and the atrocity risk of armed ethnic militias."
+    },
+    {
+      "country": "Nigeria",
+      "population_millions": 220,
+      "median_age": 18.1,
+      "tfr": 5.14,
+      "military_age_pct": 23.1,
+      "urban_pct": 53,
+      "gdp_per_capita_usd": 2200,
+      "youth_unemployment_pct": 42.5,
+      "notes": "Africa's largest population; will be world's 3rd largest by 2050 (projected 400M+). Extreme youth unemployment (42.5%) drives Boko Haram recruitment in north and IPOB separatism in southeast. Oil (Niger Delta) funds government but fuels militancy and corruption. Demographic pressure without economic opportunity is the defining security driver."
+    },
+    {
+      "country": "Indonesia",
+      "population_millions": 275,
+      "median_age": 30.2,
+      "tfr": 2.24,
+      "military_age_pct": 16.9,
+      "urban_pct": 57,
+      "gdp_per_capita_usd": 4800,
+      "youth_unemployment_pct": 14.6,
+      "notes": "World's 4th largest population, archipelago of 17,000 islands. Controls Lombok and Sunda Straits \u2014 alternative China oil import routes if Malacca is blocked. Historically non-aligned; resists US and China pressure equally. Muslim-majority democratic consolidation since 1998 makes it the world's largest Muslim democracy."
+    },
+    {
+      "country": "Mexico",
+      "population_millions": 130,
+      "median_age": 29.3,
+      "tfr": 1.75,
+      "military_age_pct": 17.4,
+      "urban_pct": 81,
+      "gdp_per_capita_usd": 11000,
+      "youth_unemployment_pct": 6.9,
+      "notes": "Cartel violence (100,000+ killed since 2006) has militarized domestic politics and degraded state capacity. Geographic proximity to US ($800B/year bilateral trade) means US security interests directly constrain Mexican policy choices. Fentanyl supply chain war is the defining security issue \u2014 not conventional military threat."
+    }
+  ],
+  "religious_cultural_drivers": [
+    {
+      "name": "Sunni-Shia Schism as Geopolitical Fault Line",
+      "origin": "632 CE \u2014 dispute over succession to Prophet Muhammad (Ali vs. Abu Bakr); hardened into permanent theological split at Battle of Karbala (680 CE)",
+      "contemporary_expression": {
+        "patron_states": {
+          "Sunni": "Saudi Arabia (Wahhabi-Salafi variant) \u2014 funds mosques, madrassas, and militias across 50+ countries",
+          "Shia": "Iran (Twelver Shia theocracy) \u2014 funds Hezbollah, Houthis, PMF, Palestinian Islamic Jihad"
+        },
+        "active_battlegrounds": [
+          "Yemen: Houthi (Zaidi Shia, Iran-backed) vs. Saudi-led coalition \u2014 sectarian framing overlaid on tribal/political conflict",
+          "Iraq: Shia PMF (Iran-linked) vs. Sunni remnants; government Shia-dominated since 2003 US invasion removed Sunni Baathists",
+          "Lebanon: Hezbollah (Shia, 40% of population) vs. Sunni/Christian/Druze balance; Iranian proxy state-within-a-state",
+          "Bahrain: Shia majority (70%) ruled by Sunni Al-Khalifa monarchy; 2011 uprising crushed with Saudi troops",
+          "Syria: Assad regime (Alawite \u2014 Shia offshoot, 12% of population) backed by Iran/Hezbollah vs. Sunni majority opposition"
+        ],
+        "shia_crescent": "Concept coined by Jordan's King Abdullah II (2004): contiguous Shia-controlled territory from Iran through Iraq/Syria to Lebanon \u2014 Saudi Arabia's primary strategic nightmare"
+      },
+      "conflict_implications": [
+        "Sectarian identity overrides rational cost-benefit in conflict decisions \u2014 Shia fighters die for Karbala symbolism; Sunni fighters die to prevent 'Safavid' (Persian) expansion",
+        "Saudi-Iran rivalry will fund proxy wars regardless of bilateral diplomatic normalization \u2014 the religious dimension is deeper than state interests",
+        "Any US/Israeli military action against Iran immediately activates the Shia network (Hezbollah rockets, PMF attacks, Houthi missiles) \u2014 it is a single strategic system",
+        "Intra-Sunni splits (Wahhabi vs. Muslim Brotherhood vs. Turkish Diyanet Islam) create Saudi-Qatar-Turkey rivalry even within the Sunni bloc"
+      ],
+      "analyst_note": "Do not reduce the Sunni-Shia conflict to a proxy for Saudi-Iran competition \u2014 the theological dimension is independently motivating for combatants. Fighters in Lebanon or Yemen may be more motivated by Karbala than by Iranian foreign policy objectives."
+    },
+    {
+      "name": "Iranian Twelver Shia Eschatology and IRGC Ideology",
+      "core_belief": "The 12th Imam (Muhammad al-Mahdi) went into occultation in 874 CE and will return to establish divine justice on earth. The Islamic Republic of Iran frames itself as the government that is preparing the conditions for his return.",
+      "political_theology": {
+        "velayat_e_faqih": "Khomeini's doctrine: in the Imam's absence, a supreme jurist (Faqih) governs with divine mandate. Khamenei holds this position \u2014 his rulings are binding religious law, not just political decisions",
+        "axis_of_resistance": "IRGC doctrine frames Hezbollah, Hamas, and Houthi operations as divinely ordained resistance (muqawama) \u2014 not merely strategic assets but fulfillment of religious obligation",
+        "martyrdom_theology": "Death in resistance against oppression (zulm) \u2014 defined as US/Israel/Sunni domination \u2014 is religiously meritorious. This reduces IRGC and Hezbollah casualty sensitivity below what material analysis predicts"
+      },
+      "conflict_implications": [
+        "Iran's risk tolerance is higher than material analysis suggests: Khamenei has religious legitimacy to absorb costs that would collapse a secular government",
+        "The 'maximum pressure' sanctions strategy assumes rational economic actors \u2014 but an actor framing suffering as divine test is less responsive to economic pain",
+        "Nuclear weapons acquisition may be framed by some IRGC factions as eschatologically necessary (hastening conditions for Mahdi's return) \u2014 not just deterrence",
+        "Hezbollah's 2006 decision to fight Israel to near-destruction was religiously rational: Nasrallah's legitimacy as 'Islamic resistance' required not surrendering regardless of cost",
+        "Negotiated compromise with Israel is theologically constrained: recognizing Israel as legitimate would contradict the resistance doctrine's foundational premise"
+      ],
+      "western_misreading": "Western analysts consistently overestimate Iranian rationality-by-material-interests and underestimate theological commitment. Sanctions relief is not sufficient incentive if theological identity requires confrontation."
+    },
+    {
+      "name": "Salafi-Jihadist Eschatology: ISIS and Al-Qaeda",
+      "theological_roots": "Wahhabism (Muhammad ibn Abd al-Wahhab, 1703-1792) + Qutbist revolutionary Islamism (Sayyid Qutb, 1906-1966) + modern jihadist synthesis. Declares all existing Muslim governments apostate (takfir) and obligates armed jihad to restore the Caliphate.",
+      "isis_eschatology": {
+        "dabiq_prophecy": "ISIS chose Dabiq, Syria as a priority holding because Islamic hadith predicts a final apocalyptic battle between Muslim armies and 'Rome' (the West) at Dabiq. Holding it served theological narrative, not military logic",
+        "caliphate_as_eschatological_trigger": "Proclamation of the Caliphate (June 2014) was designed to trigger mass migration of fighters \u2014 apocalyptic timeline required a physical state to fight for",
+        "death_wish_rationality": "ISIS fighters sought martyrdom as path to paradise \u2014 making suicide bombing economically rational in their theological framework ($0 cost of dying + guaranteed paradise)"
+      },
+      "al_qaeda_theology": {
+        "far_enemy_doctrine": "Bin Laden's reversal of traditional jihadist priority: attack the 'far enemy' (US) rather than the 'near enemy' (Arab governments) \u2014 removing US support would cause apostate regimes to collapse",
+        "catastrophic_terrorism_logic": "9/11 was designed to provoke massive US overreaction that would radicalize Muslims globally \u2014 and it succeeded (Iraq War generated the next generation of jihadists)"
+      },
+      "conflict_implications": [
+        "Deterrence does not work against actors seeking martyrdom \u2014 cost-benefit calculus is inverted",
+        "Military defeat of ISIS territory (2019) did not defeat the ideology \u2014 the apocalyptic narrative adapts to defeat (divine testing rather than failure)",
+        "Salafi-jihadist movements recruit from grievance (political humiliation, discrimination) but retain fighters through theological meaning \u2014 addressing only the grievance without the theology is insufficient",
+        "Saudi Wahhabism funded the intellectual infrastructure (madrassas, mosques) that produced the jihadist generation \u2014 even as Saudi state opposes the movement",
+        "40,000 foreign fighters from 110 countries joined ISIS 2014-2017 \u2014 demonstrating the transnational power of eschatological narrative over national identity"
+      ]
+    },
+    {
+      "name": "Hindu Nationalism (Hindutva) and South Asian Conflict",
+      "ideology": "Hindutva ('Hindu-ness') \u2014 V.D. Savarkar's 1923 concept: India belongs to those for whom it is both fatherland (pitribhumi) and holy land (punyabhumi). Muslims and Christians excluded because their holy lands are Mecca/Jerusalem, not India.",
+      "institutional_expression": {
+        "rss": "Rashtriya Swayamsevak Sangh (est. 1925) \u2014 paramilitary Hindu nationalist organization with 6M+ members; ideological parent of BJP",
+        "bjp": "Bharatiya Janata Party \u2014 ruling party under Modi since 2014; explicitly Hindu nationalist platform; 2024 election retained power despite Muslim minority concerns",
+        "vhp": "Vishwa Hindu Parishad \u2014 global Hindu advocacy organization; drove Babri Mosque demolition (1992) that killed 2,000+"
+      },
+      "conflict_implications": {
+        "kashmir": "Hindutva frames Kashmir as integral sacred Hindu territory (Sharada Peeth, Amarnath shrine); Article 370 revocation (2019) was religiously motivated as much as strategic \u2014 cannot be reversed without BJP theological cost",
+        "pakistan": "Hindutva ideology views Pakistan's existence as an unresolved partition injustice \u2014 the 'two-nation theory' that gave Muslims a separate state is existentially contested",
+        "muslims_internally": "200M Indian Muslims (14% of population) face systematic exclusion under Hindutva policies \u2014 CAA (Citizenship Amendment Act), NRC \u2014 creating internal security dynamic",
+        "nuclear_posture": "Hindutva nationalism increases domestic pressure against nuclear restraint vis-a-vis Pakistan; 'surgical strikes' (2016, 2019) were domestically necessary for BJP electoral coalition",
+        "china": "Galwan Valley 2020 killed 20 Indian soldiers \u2014 BJP government suppressed casualty numbers because Hindutva nationalism cannot admit defeat or retreat without political cost"
+      },
+      "trajectory": "Hindutva has moved from fringe to mainstream in 30 years. The 2024 BJP government represents Hindu nationalism's consolidation \u2014 India's foreign and security policy will be increasingly shaped by domestic religious-nationalist pressures."
+    },
+    {
+      "name": "Jewish Religious Zionism and Israeli Territorial Theology",
+      "distinction": "Secular Zionism (Herzl, 1897): Jewish state as political solution to antisemitism. Religious Zionism (Kook, 1921): Jewish sovereignty in Eretz Yisrael as divine commandment; settlement of the land is a religious act hastening messianic redemption.",
+      "eretz_yisrael": {
+        "biblical_borders": "Greater Israel (Eretz Yisrael HaShlema) spans from Nile to Euphrates in some interpretations; minimally includes all territory west of the Jordan River",
+        "settlement_theology": "Each settlement built on the West Bank is an act of religious fulfillment \u2014 Gush Emunim movement (est. 1974) made settlement a religious obligation; 700,000 settlers now in place",
+        "temple_mount": "Al-Aqsa Mosque/Temple Mount is Islam's 3rd holiest site AND the site of the Jewish First/Second Temples; Jewish religious nationalists seek to build Third Temple \u2014 any Israeli government action there triggers regional war"
+      },
+      "political_power": {
+        "itamar_ben_gvir": "Minister of National Security \u2014 Kahanist (follower of Meir Kahane, designated terrorist in US); advocates expulsion of Arab citizens",
+        "bezalel_smotrich": "Finance Minister controlling much of West Bank \u2014 Finance of Religious Zionism party; stated goal is Israeli annexation of West Bank",
+        "coalition_dependency": "Netanyahu's government is dependent on Smotrich and Ben Gvir's parties \u2014 cannot govern without them; this gives religious nationalists veto power over peace negotiations"
+      },
+      "conflict_implications": [
+        "Two-state solution is theologically impossible for religious Zionists \u2014 negotiating away Eretz Yisrael is a religious crime",
+        "Settler expansion is not a negotiating chip \u2014 it is a religious imperative that no coalition dependent on religious Zionist parties can halt",
+        "Temple Mount provocations (Ben Gvir visits 2022-2023) are intentional theological statements that trigger Palestinian and Arab response \u2014 the religious nationalist faction benefits from the cycle of violence it provokes",
+        "Gaza operation (October 2023 onward) was framed by religious Zionists as Amalek war (total war against a people God commanded destroyed) \u2014 casualty tolerance among religious nationalist supporters is effectively unlimited"
+      ]
+    },
+    {
+      "name": "Christian Zionism and US Middle East Policy",
+      "size": "70-80 million evangelical Christians in the United States; 25-30% of the electorate; core Republican base",
+      "theology": {
+        "rapture_and_tribulation": "Pre-millennialist dispensationalism (Darby, 1840s; popularized by Scofield Bible 1909 and Hal Lindsey's Late Great Planet Earth 1970): Jesus will return to 'rapture' believers before 7-year Tribulation; Israel's restoration to biblical borders is a prerequisite",
+        "israel_as_prophetic_necessity": "Israel must exist, expand, and control Jerusalem for End Times prophecy to be fulfilled; therefore supporting Israel is supporting God's plan",
+        "third_temple": "Building of Third Temple on Temple Mount is prophesied prerequisite for the Second Coming \u2014 some Christian Zionists support Israeli religious nationalists in this goal"
+      },
+      "policy_influence": {
+        "jerusalem_embassy": "Trump's 2017 Jerusalem embassy move was partly driven by evangelical base pressure \u2014 theologically significant as recognizing Jerusalem as Israel's undivided capital",
+        "iran_nuclear_deal": "Evangelical opposition to JCPOA framed as protecting Israel from existential threat \u2014 contributed to Trump withdrawal (2018)",
+        "unconditional_aid": "Congressional support for $3.8B/year military aid to Israel is partly sustained by evangelical political mobilization \u2014 AIPAC is reinforced by a larger Christian Zionist base",
+        "aipac_interaction": "Christian Zionist organizations (CUFI \u2014 Christians United for Israel, 10M members) coordinate with AIPAC; the combined lobbying architecture is more powerful than either alone"
+      },
+      "conflict_implications": [
+        "US political constraint on pressuring Israel for territorial concessions is partly theological, not just strategic \u2014 70M voters believe supporting Israel is a religious obligation",
+        "Gaza operations that would trigger US pressure on any other ally are insulated by evangelical political protection of Israel",
+        "The two-state solution has not just Israeli but American evangelical opposition \u2014 making it politically harder to implement even if Israel wanted to"
+      ]
+    },
+    {
+      "name": "Russian Orthodox Nationalism and the Ukraine War",
+      "ideology": "Third Rome doctrine (Monk Filofei, 1510): Moscow is the third and final Rome (Rome fell to heresy, Constantinople to the Ottomans); Russia has a divine civilizational mission to preserve true Christianity against Western spiritual corruption.",
+      "kirill_and_the_holy_war": {
+        "patriarch_kirill": "Head of Russian Orthodox Church (140M members globally) declared the Ukraine war a 'metaphysical struggle' against the decadent West \u2014 specifically gay pride parades \u2014 framing Russian soldiers as fighting for spiritual civilization",
+        "sermon_march_2022": "Kirill's sermon weeks after invasion framed war as necessary to prevent Russia from being forced to hold gay pride parades as condition of Western integration",
+        "spiritual_legitimization": "Orthodox blessing of soldiers and weapons is not ceremonial \u2014 it provides theological legitimacy that reduces conscript resistance to mobilization orders"
+      },
+      "russkiy_mir": {
+        "concept": "'Russian World' \u2014 ideological framework claiming all Russian-speaking peoples form a single civilizational space that Russia has the right and duty to protect",
+        "ukraine": "Ukraine framed as artificial Western creation (Novorossiya) separating Russian brothers \u2014 negates Ukrainian national identity at the ideological level; enables 'liberation' rather than 'invasion' framing",
+        "diaspora_claims": "Russkiy Mir extends to Russian-speaking communities in Baltic states, Kazakhstan, Moldova \u2014 provides permanent justification for future interventions"
+      },
+      "dugin_eurasianism": {
+        "aleksandr_dugin": "Philosopher whose 'Fourth Political Theory' frames Russia as the heartland civilization (after Mackinder) that must resist Atlantic/liberal civilization",
+        "influence": "Dugin has direct access to Russian military academy and security establishment \u2014 Eurasianist geopolitics influenced doctrine if not tactical decisions"
+      },
+      "conflict_implications": [
+        "Putin cannot negotiate away Ukraine without violating the Russkiy Mir civilizational framework \u2014 any settlement recognizing Ukrainian sovereignty over Russian-populated territories is ideologically impossible to sell domestically",
+        "Orthodox nationalism reduces Russian soldier casualty sensitivity: dying for Holy Russia/Orthodox civilization carries spiritual meaning",
+        "The Orthodox church's support makes dissent against the war a form of spiritual treason in Russian public framing \u2014 further constraining anti-war political organizing"
+      ]
+    },
+    {
+      "name": "Confucian Strategic Culture and Chinese Foreign Policy",
+      "core_concepts": {
+        "shi": "Strategic advantage/potential \u2014 Chinese strategic tradition (Sun Tzu, Sunzi Bingfa) prioritizes achieving favorable position (shi) over direct confrontation; winning without fighting is the highest form",
+        "face_mianzi_lian": "Mianzi (social face/prestige) and Lian (moral face/integrity) \u2014 public humiliation of China or Chinese leaders requires response regardless of cost; face-loss triggers escalation that material analysis does not predict",
+        "century_of_humiliation": "1839-1949: Opium Wars, unequal treaties, Japanese occupation, civil war \u2014 framed as national humiliation (bainian guochi) that the CCP's mission is to reverse; Taiwan, South China Sea, Hong Kong are all framed in this context",
+        "tianxia": "'All under heaven' \u2014 ancient Chinese world order concept where China is the civilizational center; tributary relationships rather than Westphalian equality; Belt and Road is partly a tianxia revival"
+      },
+      "taiwan_as_core_interest": {
+        "theological_equivalent": "Taiwan reunification is framed as completing the reversal of the century of humiliation \u2014 it is an existential national identity issue, not a strategic cost-benefit calculation",
+        "xi_jinping_timeline": "Xi has staked personal legitimacy on reunification; 'rejuvenation of the Chinese nation by 2049' (CCP centennial) creates a timeline that cannot be abandoned without succession crisis",
+        "red_lines": "Any formal declaration of Taiwan independence, any US defense treaty with Taiwan, any Taiwan nuclear capability \u2014 these are theological red lines that require military response regardless of cost"
+      },
+      "strategic_patience": [
+        "China's historical strategic culture favors 10-20 year strategies over tactical wins \u2014 'hide and bide' (Deng Xiaoping) was genuine doctrine, not deception",
+        "Gray zone operations in Taiwan Strait and South China Sea are Confucian-strategic: accumulating fait accompli advantages without crossing the line that triggers military response",
+        "Chinese leaders' public statements about Taiwan timelines should be read as domestic legitimacy-building, not operational planning \u2014 the actual timeline remains flexible"
+      ],
+      "conflict_implications": [
+        "Perceived humiliation of China (sanctions, diplomatic isolation, Taiwan arms) triggers response that pure material analysis underpredicts \u2014 face requires response even at economic cost",
+        "Xi's public commitment to reunification creates a lock-in that reduces negotiating flexibility \u2014 backing down would be face-destroying for him personally and the CCP institutionally",
+        "Western deterrence theory (raise costs \u2192 deter aggression) is partially blind to face dynamics: sometimes raising costs increases likelihood of face-saving military action, not deterrence"
+      ]
+    },
+    {
+      "name": "Honor Culture, Shame, and Conflict Escalation",
+      "definition": "Honor cultures (Middle East, South Asia, Latin America, Mediterranean) treat public reputation as a collective asset worth defending with violence. Dignity cultures (Northern Europe, North America) treat self-worth as internal and not requiring external validation. Insult in honor cultures is an existential threat; in dignity cultures it is an inconvenience.",
+      "operational_significance": {
+        "arab_world": "'Ird' (honor) and 'ayb' (shame) \u2014 honor killing, blood feuds, tribal revenge are rational in this framework. Leaders cannot be seen to back down under foreign pressure without losing domestic legitimacy",
+        "pakistan": "'Ghairat' (honor/pride) is the dominant political emotion \u2014 any perceived humiliation by India (surgical strikes, diplomatic isolation) requires visible retaliation regardless of strategic cost",
+        "north_korea": "Kim family honor cannot be publicly questioned without existential threat \u2014 US 'insults' (sanctions, military exercises, media mockery) require proportional response; this is why Trump's personal flattery worked better than conventional diplomacy",
+        "iran": "The Persian concept of 'aberoo' (face/standing) means Iran cannot absorb public humiliation without response \u2014 killing of Suleimani (2020) required Iranian missile attack on US base even at risk of massive escalation"
+      },
+      "negotiation_implications": [
+        "Face-saving exit ramps are not diplomatic weakness \u2014 they are conflict resolution tools; the US failure to provide Saddam face-saving exit in 2003 contributed to the decision to fight",
+        "Public ultimatums always fail in honor cultures: the leader cannot comply without destroying honor. Private ultimatums with public ambiguity allow compliance",
+        "Humiliation by a stronger power often triggers irrational escalation: Egypt's 1967 closure of Straits of Tiran was honor-driven despite military unreadiness",
+        "Victory framing by both sides after ceasefire is not dishonesty \u2014 it is structurally necessary for honor-culture leaders to maintain domestic legitimacy; Hezbollah claiming 2006 victory and Israel claiming deterrence achieved were both necessary for de-escalation"
+      ]
+    },
+    {
+      "name": "Buddhist Nationalism and Ethnic Conflict",
+      "counterintuitive_premise": "Buddhism is widely perceived as inherently peaceful. In practice, Buddhist nationalism in several Asian states has driven ethnic cleansing and genocide against Muslim and Hindu minorities \u2014 demonstrating that no religion is structurally peaceful.",
+      "myanmar_rohingya": {
+        "969_movement": "Ma Ba Tha organization led by U Wirathu ('Buddhist bin Laden' per Time magazine) \u2014 organized economic boycotts of Muslim businesses and preached Rohingya as existential threat to Buddhism in Myanmar",
+        "military_framing": "Tatmadaw (Myanmar military) framed Rohingya genocide (2016-2017) as Buddhist self-defense \u2014 over 700,000 Rohingya expelled to Bangladesh, 10,000+ killed",
+        "aung_san_suu_kyi": "Nobel Peace laureate refused to condemn genocide, defending military at ICJ \u2014 demonstrated that Buddhist nationalist electoral politics constrained even liberal leaders"
+      },
+      "sri_lanka": {
+        "sinhala_buddhist_nationalism": "JHU (Jathika Hela Urumaya \u2014 National Heritage Party): Buddhist monks in parliament; framed Tamil Eelam war as existential threat to Buddhism's homeland in Sri Lanka",
+        "eelam_war": "26-year civil war (1983-2009); final Mullivaikkal massacre killed 40,000+ Tamil civilians; Buddhist nationalism legitimized military's approach to final offensive"
+      },
+      "conflict_implications": [
+        "Religious framing of ethnic conflict removes compromise as an option \u2014 you cannot negotiate with an existential spiritual threat",
+        "Buddhist nationalism is dramatically underweighted in Western conflict analysis because it violates Western priors about Buddhism",
+        "Myanmar military coup (2021) and continued ethnic cleansing demonstrates Buddhist nationalism outlasts democratic openings"
+      ]
+    },
+    {
+      "name": "Islamism as Political Theology: Spectrum from MB to Caliphate",
+      "spectrum": {
+        "muslim_brotherhood": "Hassan al-Banna (Egypt, 1928): gradual Islamization of society through dawa (proselytizing), social services (hospitals, schools), then political participation. 'Participatory Islamism' \u2014 works within electoral systems to implement sharia",
+        "turkish_akp": "Erdogan's AKP is post-Islamist \u2014 uses Islamic identity and symbols but operates within democratic framework; 'Islamic democracy' model; Qatar-MB axis against Saudi-UAE",
+        "hamas": "MB offshoot governing Gaza \u2014 refuses Israeli legitimacy on theological grounds; charter references Protocols of the Elders of Zion (later revised) \u2014 theological antisemitism embedded in founding document",
+        "salafi_quietism": "Saudi Salafism tells Muslims to obey rulers and avoid political activism \u2014 'apolitical Salafism' that Saudi state exports as counter-jihadist alternative; actually stabilizes authoritarian rule",
+        "jihadist_salafism": "Al-Qaeda/ISIS \u2014 rejects both MB gradualism and Salafi quietism; armed jihad now as religious obligation"
+      },
+      "geopolitical_fault_lines": {
+        "turkey_qatar_vs_saudi_uae": "Turkey and Qatar support Muslim Brotherhood governments (post-Arab Spring); Saudi Arabia and UAE see MB as existential threat (non-state Islamic legitimacy challenges monarchy) \u2014 this is why UAE backed Haftar against MB-aligned GNA in Libya",
+        "egypt_2013": "Sisi coup overthrew MB government of Morsi \u2014 Saudi Arabia/UAE funded the coup ($12B within weeks). MB-states rivalry is as important as Sunni-Shia rivalry"
+      },
+      "conflict_implications": [
+        "Intra-Sunni rivalry (MB vs. Salafi) means 'Sunni bloc' is not strategically unified \u2014 Turkey-Qatar-MB axis and Saudi-UAE-Salafi axis are often in conflict",
+        "Hamas cannot accept a two-state solution on theological grounds without fracturing its legitimacy base \u2014 negotiations that assume Hamas can trade land for peace misread the theological constraint",
+        "Muslim Brotherhood's electoral success (Tunisia, Morocco, Jordan, Turkey) demonstrates that political Islam can operate democratically \u2014 its suppression (Egypt, Saudi, UAE) generates radicalization"
+      ]
+    },
+    {
+      "name": "Apocalypticism and End-Times Belief Across Traditions",
+      "significance": "End-times beliefs create actors who welcome catastrophic conflict as divinely ordained \u2014 fundamentally altering deterrence logic. An actor who believes war is the fulfillment of prophecy cannot be deterred by the threat of making war more likely.",
+      "traditions": {
+        "islamic_mahdism": {
+          "sunni": "Sunni hadith predict signs before the Day of Judgment: Mahdi appears, Jesus returns, final battle at Dabiq, Syria \u2014 ISIS explicitly mapped its actions to these prophecies",
+          "shia_twelver": "As above \u2014 Iranian IRGC Quds Force framing resistance as preparing conditions for Imam Mahdi's return"
+        },
+        "christian_dispensationalism": {
+          "rapture": "144 million Americans in a 2004 survey said they believed in the Rapture; 59% in a 2010 poll believed Revelation's prophecies will come true",
+          "armageddon": "Final battle at Megiddo, Israel \u2014 makes some believers welcome escalation in Israel-Arab conflict as prophetic fulfillment rather than catastrophe to prevent"
+        },
+        "jewish_temple_mount": "Hilltop Youth settlers and Temple Institute \u2014 believe rebuilding Third Temple hastens messianic redemption; several incidents of plotting to destroy Al-Aqsa Mosque (1984 Jewish Underground, 2023 plots)"
+      },
+      "deterrence_implications": [
+        "Actors with strong eschatological beliefs are resistant to deterrence: the promised catastrophe is not a threat but a promise",
+        "Nuclear use by an eschatologically motivated actor (ISIS with a device, certain IRGC factions, settler extremists) cannot be deterred by threat of retaliation \u2014 martyrdom is the goal",
+        "Secular deterrence theory was designed for rational state actors with survival interests \u2014 it is partially blind to actors for whom death is the preferred outcome"
+      ]
+    }
+  ]
+}

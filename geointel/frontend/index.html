@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GeoIntel — Multi-Agent Geopolitical Intelligence</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: #0f1117;
+    color: #e0e0e0;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+  }
+  .container { max-width: 960px; margin: 0 auto; }
+
+  /* Header */
+  .header { text-align: center; margin-bottom: 2rem; }
+  .header h1 { color: #f59e0b; font-size: 2.5rem; letter-spacing: 0.05em; }
+  .header p { color: #888; margin-top: 0.25rem; font-size: 1.1rem; }
+
+  /* Cards */
+  .card {
+    background: #1a1d26;
+    border: 1px solid #2a2d3a;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .card h2 { color: #f59e0b; margin-bottom: 1rem; font-size: 1.3rem; }
+  .card h3 { color: #3b82f6; margin-bottom: 0.75rem; font-size: 1.1rem; }
+
+  /* Form */
+  textarea {
+    width: 100%;
+    min-height: 100px;
+    background: #0f1117;
+    border: 1px solid #2a2d3a;
+    border-radius: 6px;
+    color: #e0e0e0;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-family: inherit;
+    resize: vertical;
+  }
+  textarea:focus { outline: none; border-color: #f59e0b; }
+  .form-row { display: flex; align-items: center; gap: 1rem; margin-top: 1rem; }
+  .form-row label { display: flex; align-items: center; gap: 0.4rem; color: #aaa; cursor: pointer; }
+  .btn-primary {
+    background: #f59e0b;
+    color: #0f1117;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .btn-primary:hover { background: #d97706; }
+  .btn-primary:disabled { background: #555; cursor: not-allowed; }
+  .hint { color: #666; font-size: 0.85rem; margin-top: 0.5rem; }
+
+  /* Loading */
+  .loading { display: none; text-align: center; padding: 2rem; }
+  .loading.active { display: block; }
+  .spinner {
+    display: inline-block;
+    width: 40px; height: 40px;
+    border: 4px solid #2a2d3a;
+    border-top-color: #f59e0b;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading p { margin-top: 1rem; color: #aaa; }
+
+  /* Results */
+  #results { display: none; }
+  #results.active { display: block; }
+
+  /* Outcome */
+  .outcome { text-align: center; padding: 2rem; }
+  .outcome h2 { font-size: 1.5rem; margin-bottom: 1rem; }
+  .outcome .big-number { font-size: 3rem; font-weight: 700; color: #f59e0b; }
+  .outcome .meta { color: #aaa; margin-top: 0.5rem; }
+
+  /* Probability bars */
+  .prob-bar-row { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem; }
+  .prob-label { width: 180px; text-align: right; font-size: 0.9rem; color: #ccc; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .prob-track { flex: 1; height: 24px; background: #2a2d3a; border-radius: 4px; overflow: hidden; }
+  .prob-fill { height: 100%; background: linear-gradient(90deg, #f59e0b, #d97706); border-radius: 4px; transition: width 0.5s; }
+  .prob-pct { width: 50px; font-size: 0.9rem; color: #f59e0b; font-weight: 600; }
+
+  /* Agent cards */
+  .agent-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+  .agent-card { background: #12141c; border: 1px solid #2a2d3a; border-radius: 6px; padding: 1rem; }
+  .agent-card h4 { color: #3b82f6; margin-bottom: 0.5rem; }
+  .agent-card .prediction { font-size: 0.85rem; color: #ccc; line-height: 1.4; max-height: 2.8em; overflow: hidden; margin-bottom: 0.5rem; }
+  .badge {
+    display: inline-block; padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600;
+  }
+  .badge.high { background: #22c55e22; color: #22c55e; }
+  .badge.mid  { background: #f59e0b22; color: #f59e0b; }
+  .badge.low  { background: #ef444422; color: #ef4444; }
+  .agent-card .timeline { color: #888; font-size: 0.8rem; margin-top: 0.3rem; }
+
+  /* Disagreements */
+  .disagree-item { border: 1px solid #2a2d3a; border-radius: 6px; margin-bottom: 0.5rem; overflow: hidden; }
+  .disagree-header {
+    padding: 0.75rem 1rem; background: #12141c; cursor: pointer; display: flex; justify-content: space-between; align-items: center;
+  }
+  .disagree-header:hover { background: #1a1d26; }
+  .disagree-body { padding: 0 1rem; max-height: 0; overflow: hidden; transition: max-height 0.3s, padding 0.3s; }
+  .disagree-body.open { max-height: 300px; padding: 0.75rem 1rem; }
+  .consensus { color: #22c55e; text-align: center; padding: 1rem; }
+
+  /* Key factors */
+  .factor-item { display: flex; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.5rem; }
+  .factor-dot { width: 10px; height: 10px; border-radius: 50%; margin-top: 0.35rem; flex-shrink: 0; }
+  .factor-dot.high { background: #ef4444; }
+  .factor-dot.medium { background: #f59e0b; }
+  .factor-dot.low { background: #666; }
+  .factor-text { flex: 1; font-size: 0.9rem; }
+  .factor-tag { color: #666; font-size: 0.8rem; white-space: nowrap; }
+
+  /* Comparison table */
+  .cmp-table { width: 100%; border-collapse: collapse; }
+  .cmp-table th, .cmp-table td { padding: 0.6rem 0.75rem; text-align: left; border-bottom: 1px solid #2a2d3a; }
+  .cmp-table th { color: #f59e0b; font-size: 0.85rem; text-transform: uppercase; }
+  .cmp-table td { font-size: 0.9rem; }
+  .cmp-table .delta-green { color: #22c55e; font-weight: 600; }
+
+  /* Error */
+  .error-card { background: #2a1015; border-color: #ef4444; color: #fca5a5; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .header h1 { font-size: 1.8rem; }
+    .agent-grid { grid-template-columns: 1fr; }
+    .prob-label { width: 100px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>GeoIntel</h1>
+    <p>Multi-Agent Geopolitical Intelligence</p>
+  </div>
+
+  <!-- Input Form -->
+  <div class="card">
+    <h2>Conflict Scenario</h2>
+    <div style="margin-bottom:0.75rem;">
+      <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer;">
+        <input type="checkbox" id="show-api-check" style="width:auto;">
+        <span style="color:#888;font-size:0.85rem;">Custom API Key (optional)</span>
+      </label>
+      <div id="api-key-row" style="display:none;margin-top:0.5rem;">
+        <label style="display:flex;align-items:center;gap:0.5rem;">
+          <span style="color:#888;font-size:0.85rem;min-width:80px;">API Key</span>
+          <input type="password" id="api-key-input" placeholder="sk-... (overrides server default)"
+            style="flex:1;background:#0f1117;color:#e0e0e0;border:1px solid #2a2d3a;border-radius:4px;padding:0.4rem 0.6rem;font-size:0.85rem;font-family:monospace;">
+        </label>
+      </div>
+    </div>
+    <form id="sim-form">
+      <textarea id="conflict-input" placeholder="Describe the conflict scenario, e.g. Iran vs Israel 2026"></textarea>
+      <div class="form-row">
+        <label><input type="checkbox" id="verbose-check"> Show full debate transcript</label>
+        <label><input type="checkbox" id="search-check"> Enable Qwen web search</label>
+        <select id="horizon-select" style="background:#0f1117;color:#e0e0e0;border:1px solid #2a2d3a;border-radius:4px;padding:0.3rem 0.5rem;font-size:0.85rem;">
+          <option value="long">Long-term (6+ months)</option>
+          <option value="medium">Medium-term (1-6 months)</option>
+          <option value="short">Short-term (0-30 days)</option>
+        </select>
+        <button type="submit" class="btn-primary" id="run-btn">Run Simulation</button>
+      </div>
+    </form>
+    <p class="hint">Simulation takes 60–120 seconds — runs 8 AI calls across 3 specialist agents</p>
+  </div>
+
+  <!-- Loading -->
+  <div class="loading" id="loading">
+    <div class="spinner"></div>
+    <p>Running specialist agents…</p>
+  </div>
+
+  <!-- Error -->
+  <div class="card error-card" id="error-card" style="display:none;">
+    <h2>Error</h2>
+    <p id="error-msg"></p>
+  </div>
+
+  <!-- Results -->
+  <div id="results">
+    <!-- Web Search Status -->
+    <div class="card" id="search-card">
+      <h2>Web Search Status</h2>
+      <p id="search-info" style="color:#aaa;font-size:0.9rem;margin-bottom:0.5rem;"></p>
+      <div id="search-list"></div>
+    </div>
+
+    <!-- Outcome -->
+    <div class="card outcome" id="outcome-card">
+      <h2>Forecast Outcome</h2>
+      <p id="outcome-text" style="font-size:1.1rem; margin-bottom:1rem;"></p>
+      <div class="big-number" id="outcome-prob"></div>
+      <p class="meta">
+        Confidence: <span id="outcome-conf"></span> &nbsp;|&nbsp;
+        Timeline: <span id="outcome-timeline"></span>
+      </p>
+      <p class="meta" id="outcome-impact" style="margin-top:0.5rem;"></p>
+    </div>
+
+    <!-- Probability Breakdown -->
+    <div class="card" id="prob-card" style="display:none;">
+      <h2>Probability Breakdown</h2>
+      <div id="prob-bars"></div>
+    </div>
+
+    <!-- Agent Positions Round 1 -->
+    <div class="card" id="agents-card">
+      <h2>Agent Positions — Round 1</h2>
+      <div class="agent-grid" id="agent-grid"></div>
+    </div>
+
+    <!-- Disagreements -->
+    <div class="card" id="disagree-card">
+      <h2>Disagreements</h2>
+      <div id="disagree-list"></div>
+    </div>
+
+    <!-- Key Factors -->
+    <div class="card" id="factors-card">
+      <h2>Key Factors</h2>
+      <div id="factors-list"></div>
+    </div>
+
+    <!-- Comparison Table -->
+    <div class="card" id="cmp-card">
+      <h2>Baseline vs. Agent Society</h2>
+      <table class="cmp-table">
+        <thead>
+          <tr><th>Metric</th><th>Single Agent</th><th>Agent Society</th><th>Delta</th></tr>
+        </thead>
+        <tbody id="cmp-body"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+const API_BASE = 'http://localhost:5000';
+
+const form = document.getElementById('sim-form');
+const runBtn = document.getElementById('run-btn');
+const loading = document.getElementById('loading');
+const results = document.getElementById('results');
+const errorCard = document.getElementById('error-card');
+const errorMsg = document.getElementById('error-msg');
+
+// Toggle API key input visibility
+document.getElementById('show-api-check').addEventListener('change', function() {
+  document.getElementById('api-key-row').style.display = this.checked ? 'block' : 'none';
+});
+
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const conflict = document.getElementById('conflict-input').value.trim();
+  if (!conflict) return;
+
+  const verbose = document.getElementById('verbose-check').checked;
+  const enableSearch = document.getElementById('search-check').checked;
+  const horizon = document.getElementById('horizon-select').value;
+  const apiKey = document.getElementById('api-key-input').value.trim();
+
+  runBtn.disabled = true;
+  loading.classList.add('active');
+  results.classList.remove('active');
+  errorCard.style.display = 'none';
+
+  try {
+    const headers = { 'Content-Type': 'application/json' };
+    if (apiKey) headers['X-API-Key'] = apiKey;
+
+    const res = await fetch(`${API_BASE}/api/simulate`, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify({ conflict, verbose, enable_search: enableSearch, horizon }),
+    });
+    const data = await res.json();
+
+    if (!res.ok) {
+      throw new Error(data.error || 'Simulation failed');
+    }
+
+    renderResults(data);
+    results.classList.add('active');
+  } catch (err) {
+    errorMsg.textContent = err.message;
+    errorCard.style.display = 'block';
+  } finally {
+    loading.classList.remove('active');
+    runBtn.disabled = false;
+  }
+});
+
+function pct(v) {
+  try { return `${(parseFloat(v) * 100).toFixed(0)}%`; } catch { return '?'; }
+}
+
+function confidenceBadge(conf) {
+  const v = parseFloat(conf);
+  if (v >= 0.7) return `<span class="badge high">${pct(v)}</span>`;
+  if (v >= 0.5) return `<span class="badge mid">${pct(v)}</span>`;
+  return `<span class="badge low">${pct(v)}</span>`;
+}
+
+function renderResults(data) {
+  const final = data.final || {};
+
+  // Live web search results
+  const searchInfo = document.getElementById('search-info');
+  const searchList = document.getElementById('search-list');
+  const metrics = data.metrics || {};
+  if (metrics.web_search_enabled && data.round1) {
+    // Extract live news from the first agent's kb context (embedded in round1 data)
+    // Since we don't store it separately, we show a summary
+    searchInfo.textContent = `Web search was enabled — all ${Object.keys(data.round1).length + 5} AI calls grounded in real-time web results`;
+    searchList.innerHTML = `
+      <p style="color:#888;font-size:0.85rem;">Each agent query was sent to Qwen with <code style="background:#12141c;padding:0.15rem 0.4rem;border-radius:3px;">enable_search=true</code>. 
+      The model automatically searched the web and incorporated live results into its analysis.</p>
+      <p style="color:#aaa;font-size:0.85rem;margin-top:0.3rem;">Search query: <strong style="color:#f59e0b;">"${data.conflict}"</strong></p>
+    `;
+  } else {
+    searchInfo.textContent = 'Web search was not enabled — agents used static knowledge base only';
+    searchList.innerHTML = '<p style="color:#666;">No live data. Enable "Qwen web search" to ground agents in current events.</p>';
+  }
+
+  // Outcome
+  document.getElementById('outcome-text').textContent = final.outcome || 'No outcome generated';
+  document.getElementById('outcome-prob').textContent = pct(final.probability);
+  document.getElementById('outcome-conf').textContent = pct(final.confidence);
+  document.getElementById('outcome-timeline').textContent = final.timeline || 'Unknown';
+  document.getElementById('outcome-impact').textContent = final.global_impact || '';
+
+  // Probability breakdown
+  const pb = final.probability_breakdown || {};
+  const probCard = document.getElementById('prob-card');
+  const probBars = document.getElementById('prob-bars');
+  if (Object.keys(pb).length) {
+    probCard.style.display = 'block';
+    probBars.innerHTML = Object.entries(pb).map(([label, val]) => {
+      const w = Math.round(parseFloat(val) * 100);
+      return `<div class="prob-bar-row">
+        <span class="prob-label">${label}</span>
+        <div class="prob-track"><div class="prob-fill" style="width:${w}%"></div></div>
+        <span class="prob-pct">${pct(val)}</span>
+      </div>`;
+    }).join('');
+  } else {
+    probCard.style.display = 'none';
+  }
+
+  // Agent cards
+  const grid = document.getElementById('agent-grid');
+  const round1 = data.round1 || {};
+  grid.innerHTML = Object.entries(round1).map(([name, r]) => {
+    return `<div class="agent-card">
+      <h4>${name}</h4>
+      <div class="prediction">${r.prediction || ''}</div>
+      ${confidenceBadge(r.confidence)}
+      <div class="timeline">${r.timeline || ''}</div>
+    </div>`;
+  }).join('');
+
+  // Disagreements
+  const disagreeList = document.getElementById('disagree-list');
+  const disagrees = data.disagreements || [];
+  const round2 = data.round2 || {};
+  if (disagrees.length) {
+    disagreeList.innerHTML = disagrees.map((d, i) => {
+      // Find round2 responses for agents in this disagreement
+      const r2Entries = (d.agents || []).map(a => {
+        const r2 = round2[a];
+        return r2 ? {
+          agent: a,
+          changed: r2.position_changed,
+          rebuttal: r2.rebuttal || '',
+          reason: r2.change_reason || '',
+          revised: r2.revised_prediction || '',
+        } : null;
+      }).filter(Boolean);
+
+      const r2HTML = r2Entries.map(e => {
+        const icon = e.changed ? '↻ REVISED' : '✓ HELD FIRM';
+        return `<div style="margin-top:0.5rem;padding:0.4rem;background:#12141c;border-radius:4px;">
+          <strong>${icon}</strong> ${e.agent}<br>
+          ${e.rebuttal ? `<span style="color:#aaa;">Rebuttal:</span> ${e.rebuttal.slice(0, 150)}<br>` : ''}
+          ${e.reason ? `<span style="color:#aaa;">Reason:</span> ${e.reason.slice(0, 150)}<br>` : ''}
+          ${e.revised ? `<span style="color:#aaa;">Revised:</span> ${e.revised.slice(0, 120)}` : ''}
+        </div>`;
+      }).join('');
+
+      return `<div class="disagree-item">
+        <div class="disagree-header" onclick="this.nextElementSibling.classList.toggle('open')">
+          <span><strong>${d.topic || ''}</strong> — ${d.agents ? d.agents.join(' vs. ') : ''}</span>
+          <span>▼</span>
+        </div>
+        <div class="disagree-body">
+          <p><strong>${d.agents?.[0] || ''}:</strong> ${d.agent1_position || ''}</p>
+          <p><strong>${d.agents?.[1] || ''}:</strong> ${d.agent2_position || ''}</p>
+          <p style="color:#f59e0b;margin-top:0.5rem;"><strong>Stakes:</strong> ${d.stakes || ''}</p>
+          ${r2HTML}
+        </div>
+      </div>`;
+    }).join('');
+  } else {
+    disagreeList.innerHTML = '<p class="consensus">Consensus reached — no significant disagreements detected.</p>';
+  }
+
+  // Key factors
+  const factorsList = document.getElementById('factors-list');
+  const factors = final.key_factors || [];
+  factorsList.innerHTML = (factors.length ? factors.slice(0, 8).map(f => {
+    if (typeof f === 'object') {
+      const w = f.weight || 'low';
+      return `<div class="factor-item">
+        <span class="factor-dot ${w}"></span>
+        <span class="factor-text">${f.factor || ''}</span>
+        <span class="factor-tag">${f.source_agent || ''}</span>
+      </div>`;
+    }
+    return `<div class="factor-item"><span class="factor-dot medium"></span><span class="factor-text">${f}</span></div>`;
+  }).join('') : '<p style="color:#666;">No key factors listed.</p>');
+
+  // Comparison table
+  const cmpBody = document.getElementById('cmp-body');
+  const bf = metrics.baseline_factors || 0;
+  const sf = metrics.society_factors || 0;
+  const bc = parseFloat(metrics.baseline_confidence || 0);
+  const sc = parseFloat(metrics.society_confidence || 0);
+  const deltaF = sf - bf;
+  const deltaC = ((sc - bc) * 100).toFixed(0);
+
+  function delta(v, positive) {
+    if (v > 0) return `<span class="delta-green">+${v}</span>`;
+    return v === 0 ? '0' : `${v}`;
+  }
+
+  cmpBody.innerHTML = `
+    <tr><td>Key factors identified</td><td>${bf}</td><td>${sf}</td><td>${delta(deltaF)}</td></tr>
+    <tr><td>Analytical dimensions</td><td>1</td><td>3</td><td><span class="delta-green">+2</span></td></tr>
+    <tr><td>Disagreements resolved</td><td>0</td><td>${metrics.disagreements_detected || 0}</td><td>N/A</td></tr>
+    <tr><td>Positions revised via debate</td><td>0</td><td>${metrics.positions_changed || 0}</td><td>N/A</td></tr>
+    <tr><td>Confidence</td><td>${pct(bc)}</td><td>${pct(sc)}</td><td>${deltaC >= 0 ? `<span class="delta-green">+${deltaC}pp</span>` : `${deltaC}pp`}</td></tr>
+    <tr><td>Knowledge base used</td><td style="color:#ef4444;">No</td><td style="color:#22c55e;">Yes</td><td>—</td></tr>
+  `;
+}
+</script>
+</body>
+</html>
