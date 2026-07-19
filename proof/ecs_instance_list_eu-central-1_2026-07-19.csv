@@ -1,0 +1,2 @@
+﻿Instance ID,Instance Name,Hostname,OS Type,Status,Description,Region,Availability Zone,Public IP,Memory,Network Type,Instance Type,Instance Family
+i-gw80spblusox58vzgq83,launch-advisor-20260718,iZgw80spblusox58vzgq83Z,Ubuntu  26.04 64 bit,Running,,eu-central-1,eu-central-1c,8.220.101.43,4 GiB,vpc,ecs.c9i.large,ecs.c9i
